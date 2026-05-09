@@ -1,0 +1,1345 @@
+{
+  "common": {
+    "appName": "EduVanta",
+    "tagline": "إدارة المدارس والكليات ونظام إدارة التعلم",
+    "foundationTitle": "صفحة التحقق من الأساس",
+    "foundationDescription": "تتحقق هذه الصفحة من مكونات الأساس: الرموز التصميمية، تبديل الثيم، اللغة/اتجاه RTL، وتنسيق العملة.",
+    "currentLocale": "اللغة الحالية",
+    "currentDirection": "اتجاه النص",
+    "sampleAmount": "مبلغ نموذجي",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "search": "بحث",
+    "addNew": "إضافة جديد",
+    "view": "عرض",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "loading": "جار التحميل...",
+    "noData": "لا توجد بيانات",
+    "confirmDelete": "هل أنت متأكد أنك تريد حذف هذا العنصر؟",
+    "actions": "إجراءات"
+  },
+  "theme": {
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام",
+    "toggle": "تبديل السمة"
+  },
+  "currency": {
+    "label": "العملة",
+    "USD": "الدولار الأمريكي",
+    "AED": "درهم إماراتي",
+    "SAR": "ريال سعودي",
+    "PKR": "روبية باكستانية",
+    "GBP": "جنيه إسترليني",
+    "EUR": "يورو",
+    "QAR": "ريال قطري",
+    "KWD": "دينار كويتي",
+    "OMR": "ريال عماني",
+    "BHD": "دينار بحريني",
+    "INR": "روبية هندية"
+  },
+  "navigation": {
+    "dashboard": "لوحة التحكم",
+    "schoolDashboard": "المدرسة",
+    "studentDashboard": "الطالب",
+    "teacherDashboard": "المعلم",
+    "parentDashboard": "ولي الأمر",
+    "lmsDashboard": "نظام التعلم",
+    "universityDashboard": "الجامعة",
+    "students": "الطلاب",
+    "teachers": "المعلمون",
+    "guardians": "أولياء الأمور",
+    "employees": "الموظفون",
+    "hrm": "الموارد البشرية",
+    "academic": "الشؤون الأكاديمية",
+    "exams": "الامتحانات",
+    "fees": "الرسوم",
+    "finance": "المالية",
+    "library": "المكتبة",
+    "communication": "التواصل",
+    "notifications": "الإشعارات",
+    "certificates": "الشهادات",
+    "settings": "الإعدادات"
+  },
+  "marketing": {
+    "heroTitle": "أدر مدرستك بثقة",
+    "heroSubtitle": "منصة قوية ومتعددة اللغات للمدارس والكليات وأنظمة إدارة التعلم.",
+    "ctaGetStarted": "ابدأ مجاناً",
+    "ctaViewDemo": "شاهد العرض التجريبي",
+    "nav": {
+      "product": "المنتج",
+      "roles": "الأدوار",
+      "pricing": "الأسعار",
+      "faq": "الأسئلة",
+      "login": "تسجيل الدخول",
+      "getStarted": "ابدأ الآن"
+    },
+    "hero": {
+      "eyebrow": "مدرسة · كلية · أكاديمية · نظام تعلم",
+      "title": "المنصة الحديثة لإدارة التعليم",
+      "subtitle": "يجمع EduVanta سجلات الطلاب والحضور والرسوم والامتحانات والموارد البشرية والمالية في نظام واحد.",
+      "primaryCta": "ابدأ مجاناً",
+      "secondaryCta": "استكشف لوحة التحكم"
+    },
+    "metrics": {
+      "modules": "+12",
+      "modulesLabel": "وحدة إدارية",
+      "dashboards": "6",
+      "dashboardsLabel": "لوحة تحكم لكل دور",
+      "languages": "3",
+      "languagesLabel": "لغات مدعومة",
+      "currencies": "11",
+      "currenciesLabel": "عملة مدعومة"
+    },
+    "modules": {
+      "title": "كل ما تحتاجه مؤسستك",
+      "subtitle": "من تسجيل الطلاب إلى كشف الرواتب، كل سير عمل مفرد في منصة واحدة.",
+      "items": {
+        "students": "الطلاب",
+        "teachers": "المعلمون",
+        "guardians": "أولياء الأمور",
+        "attendance": "الحضور",
+        "exams": "الامتحانات",
+        "fees": "الرسوم",
+        "finance": "المالية",
+        "hrm": "الموارد البشرية",
+        "library": "المكتبة",
+        "notices": "لوحة الإعلانات",
+        "events": "الفعاليات",
+        "messages": "الرسائل",
+        "settings": "الأدوار والإعدادات"
+      }
+    },
+    "roles": {
+      "title": "لوحة تحكم لكل دور",
+      "subtitle": "كل شخصية تحصل على عرض مركز بالمعلومات والأدوات التي تحتاجها.",
+      "items": {
+        "admin": { "name": "مدير / مدير المدرسة", "desc": "الوصول الكامل إلى جميع الوحدات والتقارير والإعدادات." },
+        "teacher": { "name": "المعلم", "desc": "الفصول والجدول والحضور وجدولة الامتحانات والرسائل." },
+        "student": { "name": "الطالب", "desc": "الرسوم والحضور ونتائج الامتحانات والإعلانات والمكتبة." },
+        "parent": { "name": "ولي الأمر", "desc": "تقدم الطفل وحالة الرسوم والحضور وإعلانات المدرسة." },
+        "accountant": { "name": "المحاسب", "desc": "الرسوم والدخل والمصاريف وكشف الرواتب وتقارير المعاملات." },
+        "librarian": { "name": "أمين المكتبة", "desc": "فهرس الكتب وتتبع الاستعارة والإعادة وإدارة الأعضاء." }
+      }
+    },
+    "dashboardPreview": {
+      "title": "ستة لوحات تحكم قوية",
+      "subtitle": "مبنية لكل مستخدم",
+      "items": {
+        "school": "لوحة المدرسة",
+        "student": "لوحة الطالب",
+        "teacher": "لوحة المعلم",
+        "parent": "لوحة ولي الأمر",
+        "lms": "لوحة نظام التعلم",
+        "university": "لوحة الجامعة"
+      }
+    },
+    "global": {
+      "title": "مبني للعالم",
+      "subtitle": "العربية والأردية والإنجليزية — مع دعم تخطيط RTL وعملات 11 إقليمية.",
+      "rtlReady": "تخطيط جاهز لليمين إلى اليسار",
+      "rtlDesc": "تتقلب واجهات العربية والأردية بشكل طبيعي. لا تكوين إضافي مطلوب.",
+      "multiCurrency": "دعم متعدد العملات",
+      "currencyDesc": "عرض الرسوم والبيانات المالية بعملات متعددة.",
+      "i18nReady": "بنية i18n أولاً",
+      "i18nDesc": "جميع النصوص مترجمة. أضف أي لغة في المراحل القادمة."
+    },
+    "finance": {
+      "title": "المالية بكل بساطة",
+      "subtitle": "من تحصيل الرسوم إلى كشف الرواتب، أدّر الصورة المالية الكاملة لمؤسستك.",
+      "items": {
+        "fees": "تحصيل الرسوم",
+        "income": "تتبع الدخل",
+        "expenses": "إدارة المصاريف",
+        "payroll": "واجهة كشف الرواتب",
+        "transactions": "دفتر المعاملات",
+        "currency": "عرض متعدد العملات"
+      }
+    },
+    "academic": {
+      "title": "البنية الأكاديمية، مغطاة",
+      "subtitle": "نظّم مناهجك وتتبع النتائج بثقة.",
+      "items": {
+        "classes": "الفصول والشعب",
+        "subjects": "المواد",
+        "timetable": "الجداول الزمنية",
+        "exams": "الامتحانات والجداول",
+        "results": "النتائج",
+        "attendance": "تتبع الحضور"
+      }
+    },
+    "communication": {
+      "title": "ابق الجميع على علم",
+      "subtitle": "إعلانات وفعاليات ورسائل وإشعارات — كلها في مكان واحد.",
+      "items": {
+        "notices": "لوحة الإعلانات",
+        "events": "تقويم الفعاليات",
+        "messages": "الرسائل الداخلية",
+        "notifications": "الإشعارات"
+      }
+    },
+    "pricing": {
+      "title": "خطط واضحة",
+      "subtitle": "اختر الخطة المناسبة لمؤسستك.",
+      "note": "الأسعار توضيحية. دمج الفاتورة مخطط لمرحلة مستقبلية.",
+      "mostPopular": "الأكثر شيوعاً",
+      "plans": {
+        "starter": { "name": "البداية", "desc": "مثالي لمدرسة صغيرة.", "priceMonthly": 49, "features": ["حتى 500 طالب", "الوحدات الأساسية", "3 حسابات إدارية", "دعم بالبريد"] },
+        "growth": { "name": "النمو", "desc": "للمؤسسات المتنامية.", "priceMonthly": 129, "features": ["حتى 2000 طالب", "جميع الوحدات", "10 حسابات", "دعم متقدم", "عملات متعددة"] },
+        "institution": { "name": "المؤسسة", "desc": "للمدارس والجامعات الكبيرة.", "priceMonthly": 299, "features": ["طلاب غير محدود", "جميع الوحدات", "مسؤولون غير محدودين", "دعم مخصص", "علامة تجارية مخصصة", "حرم متعدد"] }
+      },
+      "cta": "ابدأ الآن",
+      "month": "/ شهر"
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "items": {
+        "q1": "هل EduVanta واجهة أمامية فقط حالياً؟",
+        "a1": "نعم. EduVanta في الوقت الحالي واجهة أمامية عالية الجودة يتم بناؤها مرحلة بعد مرحلة.",
+        "q2": "هل يدعم العربية والأردية؟",
+        "a2": "نعم. دعم كامل لتخطيط RTL مدمج بالكامل.",
+        "q3": "ما هي العملات المدعومة؟",
+        "a3": "11 عملة: دولار ودرهم إماراتي وريال سعودي وروبية باكستانية وجنيه إسترليني ويورو وريال قطري ودينار كويتي وريال عماني ودينار بحريني وروبية هندية.",
+        "q4": "هل يمكن ربطه بـ Supabase لاحقاً؟",
+        "a4": "نعم. ستضاف الخطافات في مرحلة مستقبلية.",
+        "q5": "هل يمكن للمدارس والجامعات استخدامه؟",
+        "a5": "نعم. يدعم EduVanta شخصيات من مدرسة وكلية وأكاديمية وجامعة.",
+        "q6": "هل يحل محل EduDash أم يطوره؟",
+        "a6": "EduVanta هو تحديث شامل مبني على Next.js وTailwind CSS وshadcn/ui."
+      }
+    },
+    "cta": {
+      "title": "مستعد لتحديث مؤسستك؟",
+      "subtitle": "استكشف لوحة التحكم الآن أو سجّل للمتابعة.",
+      "primary": "استكشف لوحة التحكم",
+      "secondary": "ابدأ مجاناً"
+    },
+    "footer": {
+      "description": "منصة حديثة لإدارة المدارس متعددة اللغات.",
+      "product": "المنتج",
+      "modules": "الوحدات",
+      "platform": "المنصة",
+      "rights": "جميع الحقوق محفوظة.",
+      "demoNote": "هذا عرض توضيحي. تكامل الخادمة قيد التطوير.",
+      "links": {
+        "dashboard": "لوحة التحكم",
+        "pricing": "الأسعار",
+        "faq": "الأسئلة",
+        "students": "الطلاب",
+        "teachers": "المعلمون",
+        "fees": "الرسوم",
+        "finance": "المالية",
+        "library": "المكتبة",
+        "rtl": "دعم RTL",
+        "i18n": "تعدد اللغات",
+        "themes": "الوضع الداكن"
+      }
+    }
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "signOut": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "rememberMe": "تذكرني",
+    "createAccount": "إنشاء حساب جديد",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟"
+  },
+  "dashboard": {
+    "welcome": "مرحباً بعودتك",
+    "overview": "نظرة عامة",
+    "recentActivity": "النشاط الأخير",
+    "totalStudents": "إجمالي الطلاب",
+    "totalTeachers": "إجمالي المعلمين",
+    "totalRevenue": "إجمالي الإيرادات",
+    "attendance": "الحضور",
+    "schoolTitle": "لوحة تحكم المدرسة",
+    "studentTitle": "لوحة تحكم الطالب",
+    "teacherTitle": "لوحة تحكم المعلم",
+    "parentTitle": "لوحة تحكم ولي الأمر",
+    "lmsTitle": "لوحة تحكم نظام التعلم",
+    "universityTitle": "لوحة تحكم الجامعة",
+    "placeholderDescription": "سيتم بناء محتوى لوحة التحكم الكاملة في المرحلة الثامنة.",
+    "phaseNote": "المرحلة الثالثة — هيكل التخطيط فقط",
+    "pages": {
+      "school": {
+        "title": "لوحة تحكم المدرسة",
+        "description": "نظرة عامة على الطلاب والموظفين والحضور والأمور المالية."
+      },
+      "student": {
+        "title": "لوحة تحكم الطالب",
+        "description": "حضورك وامتحاناتك ونتائجك وحالة الرسوم."
+      },
+      "teacher": {
+        "title": "لوحة تحكم المعلم",
+        "description": "فصولك وطلابك وحضورك والامتحانات القادمة."
+      },
+      "parent": {
+        "title": "لوحة تحكم ولي الأمر",
+        "description": "حضور طفلك ورسومه وإشعارات المدرسة."
+      },
+      "lms": {
+        "title": "لوحة تحكم نظام التعلم",
+        "description": "تقدم الدورات ومشاركة المتعلمين ومعدلات الإتمام."
+      },
+      "university": {
+        "title": "لوحة تحكم الجامعة",
+        "description": "الأقسام والكليات والطلاب والمقاييس المؤسسية."
+      }
+    },
+    "sections": {
+      "overview": "نظرة عامة",
+      "analytics": "التحليلات",
+      "quickActions": "إجراءات سريعة",
+      "recentActivity": "النشاط الأخير",
+      "notices": "الإشعارات",
+      "events": "الفعاليات القادمة",
+      "attendance": "الحضور",
+      "finance": "المالية",
+      "performance": "الأداء",
+      "timetable": "جدول اليوم",
+      "children": "أطفالي",
+      "learning": "تقدم التعلم"
+    },
+    "actions": {
+      "addStudent": "إضافة طالب",
+      "collectFees": "تحصيل الرسوم",
+      "viewExams": "الامتحانات",
+      "noticeBoard": "لوحة الإشعارات",
+      "viewResults": "عرض النتائج",
+      "viewAttendance": "الحضور",
+      "viewFees": "رسومي",
+      "viewLibrary": "المكتبة",
+      "markAttendance": "تسجيل الحضور",
+      "viewTimetable": "الجدول الزمني",
+      "messageParents": "مراسلة أولياء الأمور",
+      "viewChildProfile": "ملف الطفل",
+      "payFees": "دفع الرسوم",
+      "viewDepartments": "الأقسام",
+      "viewTeachers": "المعلمون",
+      "viewFinance": "المالية",
+      "viewStudents": "الطلاب",
+      "viewCourses": "الدورات",
+      "viewAssignments": "الواجبات"
+    },
+    "states": {
+      "loading": "جاري تحميل لوحة التحكم…",
+      "error": "فشل تحميل بيانات لوحة التحكم.",
+      "empty": "لا توجد بيانات لوحة التحكم."
+    },
+    "widgets": {
+      "loading": "جاري التحميل...",
+      "empty": "لا توجد بيانات",
+      "noData": "لا توجد بيانات للعرض",
+      "viewAll": "عرض الكل",
+      "quickActions": "إجراءات سريعة",
+      "recentActivity": "النشاط الأخير",
+      "attendanceSummary": "ملخص الحضور",
+      "notices": "الإشعارات",
+      "events": "الفعاليات"
+    },
+    "trends": {
+      "up": "صاعد",
+      "down": "هابط",
+      "neutral": "لا تغيير",
+      "increase": "زيادة",
+      "decrease": "انخفاض"
+    },
+    "metrics": {
+      "students": "إجمالي الطلاب",
+      "teachers": "إجمالي المعلمين",
+      "guardians": "أولياء الأمور",
+      "revenue": "الإيرادات",
+      "attendance": "الحضور",
+      "pendingFees": "الرسوم المعلقة"
+    }
+  },
+  "settings": {
+    "general": "الإعدادات العامة",
+    "languages": "اللغات",
+    "currencies": "العملات",
+    "roles": "إدارة الأدوار",
+    "assignRoles": "تعيين الأدوار",
+    "subscription": "خطط الاشتراك"
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+    "minLength": "يجب أن يكون على الأقل {min} أحرف",
+    "maxLength": "يجب ألا يزيد عن {max} حرفاً",
+    "passwordMismatch": "كلمتا المرور غير متطابقتين",
+    "termsRequired": "يجب الموافقة على الشروط",
+    "passwordMin": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل"
+  },
+  "layout": {
+    "skipToMain": "تخطي إلى المحتوى الرئيسي",
+    "collapseSidebar": "طي الشريط الجانبي",
+    "expandSidebar": "توسيع الشريط الجانبي",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة"
+  },
+  "shell": {
+    "searchPlaceholder": "بحث…",
+    "notifications": "الإشعارات",
+    "noNotifications": "لا توجد إشعارات",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "signOut": "تسجيل الخروج",
+    "demoSchool": "مدرسة تجريبية"
+  },
+  "breadcrumbs": {
+    "home": "الرئيسية",
+    "dashboard": "لوحة التحكم"
+  },
+  "auth": {
+    "common": {
+      "backToHome": "العودة إلى الرئيسية",
+      "login": "تسجيل الدخول",
+      "register": "ابدأ الآن",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmNewPassword": "تأكيد كلمة المرور الجديدة",
+      "fullName": "الاسم الكامل",
+      "schoolName": "اسم المدرسة / المؤسسة",
+      "phone": "رقم الهاتف (اختياري)",
+      "country": "الدولة",
+      "preferredLanguage": "اللغة المفضلة",
+      "preferredCurrency": "العملة المفضلة",
+      "rememberMe": "تذكرني لمدة 30 يوماً",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "showPassword": "إظهار كلمة المرور",
+      "hidePassword": "إخفاء كلمة المرور",
+      "submit": "إرسال",
+      "loading": "يرجى الانتظار…",
+      "or": "أو",
+      "demoMode": "وضع تجريبي",
+      "terms": "أوافق على شروط الخدمة وسياسة الخصوصية"
+    },
+    "login": {
+      "title": "مرحباً بعودتك",
+      "subtitle": "سجّل دخولك إلى مساحة EduVanta",
+      "submit": "تسجيل الدخول",
+      "noAccount": "ليس لديك حساب؟",
+      "createAccount": "أنشئ حساباً مجانياً",
+      "success": "تم تسجيل الدخول بنجاح!",
+      "demoTitle": "جرّب دوراً تجريبياً",
+      "demoSubtitle": "انقر على أي دور لملء بيانات الاعتماد",
+      "selectedRole": "تم اختيار الدور التجريبي"
+    },
+    "register": {
+      "title": "أنشئ مساحتك",
+      "subtitle": "ابدأ تجربتك المجانية — لا حاجة لبطاقة ائتمان",
+      "submit": "طلب الوصول",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "signIn": "تسجيل الدخول",
+      "successTitle": "تم استلام طلبك!",
+      "successDescription": "طلب مساحة EduVanta جاهز للمراجعة. سنتواصل معك قريباً."
+    },
+    "forgot": {
+      "title": "إعادة تعيين كلمة المرور",
+      "subtitle": "أدخل بريدك الإلكتروني وسنرسل تعليمات الإعادة",
+      "submit": "إرسال رابط الإعادة",
+      "success": "إذا كان هذا البريد موجوداً، تم إرسال تعليمات الإعادة.",
+      "backToLogin": "العودة إلى تسجيل الدخول"
+    },
+    "reset": {
+      "title": "تعيين كلمة مرور جديدة",
+      "subtitle": "أدخل وأكد كلمة المرور الجديدة أدناه",
+      "submit": "تعيين كلمة مرور جديدة",
+      "success": "تم عرض إعادة تعيين كلمة المرور بنجاح.",
+      "backToLogin": "العودة إلى تسجيل الدخول"
+    },
+    "brand": {
+      "title": "إدارة التعليم بسهولة",
+      "subtitle": "تثق بها مدارس وكليات في أكثر من 30 دولة",
+      "benefits": {
+        "0": "أكثر من 12 وحدة — طلاب، رسوم، امتحانات، موارد بشرية، مكتبة",
+        "1": "متعدد اللغات وجاهز للكتابة من اليمين إلى اليسار — عربي، إنجليزي، أردو",
+        "2": "6 لوحات تحكم للأدوار — مدير، معلم، طالب، ولي أمر وغيرهم"
+      }
+    },
+    "roles": {
+      "superAdmin": "مدير عام",
+      "admin": "مسؤول",
+      "principal": "مدير المدرسة",
+      "teacher": "معلم",
+      "student": "طالب",
+      "parent": "ولي الأمر",
+      "guardian": "الوصي",
+      "accountant": "محاسب",
+      "librarian": "أمين المكتبة"
+    }
+  },
+  "table": {
+    "search": "بحث",
+    "searchPlaceholder": "بحث...",
+    "noResults": "لا توجد نتائج",
+    "rowsSelected": "تم تحديد {count} صف",
+    "rowsPerPage": "صفوف في الصفحة",
+    "page": "صفحة",
+    "of": "من",
+    "previous": "السابق",
+    "next": "التالي",
+    "first": "الأول",
+    "last": "الأخير",
+    "columns": "الأعمدة",
+    "showHideColumns": "إظهار/إخفاء الأعمدة",
+    "resetFilters": "إعادة ضبط الفلاتر",
+    "export": "تصدير",
+    "exportCsv": "تصدير CSV",
+    "confirmExport": "هل تريد تصدير بيانات الجدول الحالية كملف CSV؟",
+    "actions": "إجراءات",
+    "view": "عرض",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "duplicate": "نسخ",
+    "confirmDelete": "هل أنت متأكد؟ لا يمكن التراجع عن هذا الإجراء.",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "loading": "جار التحميل...",
+    "filterBy": "تصفية حسب {column}",
+    "clearFilters": "مسح الفلاتر",
+    "selected": "محدد"
+  },
+  "forms": {
+    "required": "مطلوب",
+    "optional": "اختياري",
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "reset": "إعادة تعيين",
+    "saveChanges": "حفظ التغييرات",
+    "uploadFile": "رفع ملف",
+    "selectedFiles": "تم تحديد {count} ملف",
+    "noFileSelected": "لم يتم اختيار ملف",
+    "validationSummary": "يرجى تصحيح الأخطاء التالية:",
+    "showPassword": "إظهار كلمة المرور",
+    "hidePassword": "إخفاء كلمة المرور"
+  },
+  "students": {
+    "pages": {
+      "list": { "title": "الطلاب", "description": "إدارة تسجيل الطلاب وملفاتهم وسجلاتهم." },
+      "new": { "title": "إضافة طالب جديد", "description": "إنشاء سجل طالب جديد." },
+      "edit": { "title": "تعديل الطالب", "description": "تحديث معلومات الطالب." },
+      "details": { "title": "تفاصيل الطالب" },
+      "attendance": { "title": "حضور الطلاب", "description": "عرض سجلات الحضور اليومية." },
+      "categories": { "title": "فئات الطلاب", "description": "تنظيم الطلاب في فئات." },
+      "suspended": { "title": "الطلاب الموقوفون", "description": "الطلاب الموقوفون حالياً." }
+    },
+    "actions": {
+      "add": "إضافة طالب", "edit": "تعديل", "view": "عرض", "delete": "حذف",
+      "suspend": "إيقاف", "activate": "تفعيل", "save": "حفظ", "cancel": "إلغاء",
+      "backToList": "العودة إلى الطلاب", "addCategory": "إضافة فئة", "editCategory": "تعديل الفئة"
+    },
+    "fields": {
+      "firstName": "الاسم الأول", "lastName": "اسم العائلة", "fullName": "الاسم الكامل",
+      "admissionNumber": "رقم القبول", "rollNumber": "رقم الدور", "gender": "الجنس",
+      "dateOfBirth": "تاريخ الميلاد", "bloodGroup": "فصيلة الدم", "email": "البريد الإلكتروني",
+      "phone": "الهاتف", "address": "العنوان", "class": "الفصل", "section": "الشعبة",
+      "category": "الفئة", "admissionDate": "تاريخ القبول", "academicYear": "العام الدراسي",
+      "status": "الحالة", "guardian": "ولي الأمر", "guardianPhone": "هاتف ولي الأمر",
+      "guardianEmail": "بريد ولي الأمر", "fatherName": "اسم الأب", "motherName": "اسم الأم",
+      "profileImage": "صورة الملف الشخصي"
+    },
+    "sections": {
+      "personal": "المعلومات الشخصية", "academic": "المعلومات الأكاديمية",
+      "guardian": "معلومات ولي الأمر", "contact": "بيانات الاتصال",
+      "attendance": "الحضور والغياب", "fees": "ملخص الرسوم", "overview": "نظرة عامة"
+    },
+    "table": {
+      "student": "الطالب", "rollNumber": "رقم الدور", "class": "الفصل",
+      "section": "الشعبة", "guardian": "ولي الأمر", "phone": "الهاتف",
+      "status": "الحالة", "actions": "الإجراءات"
+    },
+    "status": {
+      "active": "نشط", "inactive": "غير نشط", "suspended": "موقوف",
+      "graduated": "خريج", "transferred": "منقول"
+    },
+    "attendance": { "present": "حاضر", "absent": "غائب", "late": "متأخر", "halfDay": "نصف يوم" },
+    "summary": { "total": "إجمالي الطلاب", "active": "نشطون", "suspended": "موقوفون", "newAdmissions": "قبول جديد" },
+    "messages": {
+      "created": "تم إنشاء الطالب بنجاح.", "updated": "تم تحديث بيانات الطالب.",
+      "deleted": "تم حذف الطالب.", "suspended": "تم إيقاف الطالب.", "activated": "تم تفعيل الطالب.",
+      "categoryCreated": "تم إنشاء الفئة.", "categoryUpdated": "تم تحديث الفئة.", "notFound": "الطالب غير موجود."
+    },
+    "categories": {
+      "name": "اسم الفئة", "description": "الوصف", "studentCount": "الطلاب",
+      "status": "الحالة", "addTitle": "إضافة فئة", "editTitle": "تعديل الفئة",
+      "deleteConfirm": "حذف هذه الفئة؟ لا يمكن التراجع عن هذا الإجراء."
+    },
+    "suspended": {
+      "suspendedDate": "تاريخ الإيقاف", "reason": "السبب",
+      "reactivate": "إعادة التفعيل", "reactivateConfirm": "إعادة تفعيل هذا الطالب؟"
+    }
+  },
+  "teachers": {
+    "pages": {
+      "list": { "title": "المعلمون", "description": "إدارة ملفات المعلمين والمهام والسجلات." },
+      "new": { "title": "إضافة معلم جديد", "description": "إنشاء سجل معلم جديد." },
+      "edit": { "title": "تعديل المعلم", "description": "تحديث معلومات المعلم." },
+      "details": { "title": "تفاصيل المعلم" },
+      "attendance": { "title": "حضور المعلمين", "description": "عرض وإدارة سجلات الحضور اليومية." },
+      "timetable": { "title": "جدول المعلمين", "description": "عرض الجدول الأسبوعي للفصول." }
+    },
+    "actions": {
+      "add": "إضافة معلم", "edit": "تعديل", "view": "عرض", "delete": "حذف",
+      "activate": "تفعيل", "deactivate": "إلغاء التفعيل", "save": "حفظ المعلم",
+      "cancel": "إلغاء", "backToList": "العودة إلى المعلمين",
+      "viewTimetable": "عرض الجدول", "markAttendance": "تسجيل الحضور"
+    },
+    "fields": {
+      "firstName": "الاسم الأول", "lastName": "اسم العائلة", "fullName": "الاسم الكامل",
+      "teacherCode": "رمز المعلم", "employeeNumber": "رقم الموظف", "gender": "الجنس",
+      "dateOfBirth": "تاريخ الميلاد", "email": "البريد الإلكتروني", "phone": "الهاتف",
+      "alternatePhone": "هاتف بديل", "address": "العنوان", "department": "القسم",
+      "designation": "المسمى الوظيفي", "qualification": "المؤهل العلمي",
+      "experienceYears": "سنوات الخبرة", "joiningDate": "تاريخ الالتحاق",
+      "status": "الحالة", "subjects": "المواد", "classes": "الفصول",
+      "profileImage": "صورة الملف الشخصي", "emergencyContactName": "اسم جهة الطوارئ",
+      "emergencyContactPhone": "هاتف الطوارئ", "notes": "ملاحظات"
+    },
+    "sections": {
+      "personal": "المعلومات الشخصية", "professional": "المعلومات المهنية",
+      "contact": "بيانات الاتصال", "emergency": "جهة الطوارئ",
+      "academic": "المواد والأكاديمي", "classes": "الفصول",
+      "attendance": "الحضور", "timetable": "الجدول", "overview": "نظرة عامة"
+    },
+    "table": {
+      "teacher": "المعلم", "department": "القسم", "subjects": "المواد",
+      "classes": "الفصول", "phone": "الهاتف", "joiningDate": "تاريخ الالتحاق",
+      "status": "الحالة", "actions": "الإجراءات"
+    },
+    "status": { "active": "نشط", "inactive": "غير نشط", "onLeave": "في إجازة", "suspended": "موقوف" },
+    "attendance": { "present": "حاضر", "absent": "غائب", "late": "متأخر", "halfDay": "نصف يوم", "leave": "إجازة" },
+    "timetable": {
+      "day": "اليوم", "time": "الوقت", "subject": "المادة", "class": "الفصل",
+      "room": "الغرفة", "teacher": "المعلم", "noEvents": "لا توجد إدخالات في الجدول."
+    },
+    "summary": { "total": "إجمالي المعلمين", "active": "نشطون", "onLeave": "في إجازة", "departments": "الأقسام" },
+    "messages": {
+      "created": "تم إنشاء المعلم بنجاح.", "updated": "تم تحديث بيانات المعلم.",
+      "deleted": "تم حذف المعلم.", "activated": "تم تفعيل المعلم.",
+      "deactivated": "تم إلغاء تفعيل المعلم.", "notFound": "المعلم غير موجود."
+    }
+  },
+  "guardians": {
+    "pages": {
+      "list": { "title": "أولياء الأمور", "description": "إدارة ملفات أولياء الأمور وبيانات الاتصال والطلاب المرتبطين." },
+      "new": { "title": "إضافة ولي أمر جديد", "description": "إنشاء سجل ولي أمر جديد مع معلومات الاتصال وروابط الطلاب." },
+      "edit": { "title": "تعديل ولي الأمر", "description": "تحديث معلومات ولي الأمر." },
+      "details": { "title": "تفاصيل ولي الأمر", "description": "عرض ملف ولي الأمر وتفاصيل الاتصال والطلاب المرتبطين." }
+    },
+    "actions": {
+      "add": "إضافة ولي أمر", "edit": "تعديل", "view": "عرض", "delete": "حذف",
+      "activate": "تفعيل", "deactivate": "إلغاء التفعيل", "save": "حفظ ولي الأمر",
+      "cancel": "إلغاء", "backToList": "العودة إلى أولياء الأمور",
+      "backToDetails": "العودة إلى التفاصيل",
+      "viewStudent": "عرض الطالب", "linkStudent": "ربط طالب"
+    },
+    "fields": {
+      "firstName": "الاسم الأول", "lastName": "اسم العائلة", "fullName": "الاسم الكامل",
+      "relationship": "صلة القرابة", "occupation": "المهنة", "nationalId": "الهوية الوطنية",
+      "email": "البريد الإلكتروني", "phone": "الهاتف", "alternatePhone": "هاتف بديل",
+      "address": "العنوان", "city": "المدينة", "country": "الدولة",
+      "status": "الحالة", "profileImage": "صورة الملف الشخصي",
+      "emergencyContact": "جهة الطوارئ", "portalAccess": "صلاحية البوابة",
+      "linkedStudents": "الطلاب المرتبطون", "primaryStudent": "الطالب الأساسي"
+    },
+    "sections": {
+      "personal": "المعلومات الشخصية", "contact": "معلومات الاتصال",
+      "emergency": "جهة الطوارئ", "access": "صلاحية البوابة",
+      "linkedStudents": "الطلاب المرتبطون", "overview": "نظرة عامة"
+    },
+    "table": {
+      "guardian": "ولي الأمر", "relationship": "صلة القرابة", "phone": "الهاتف",
+      "email": "البريد الإلكتروني", "linkedStudents": "الطلاب المرتبطون",
+      "portalAccess": "صلاحية البوابة", "status": "الحالة", "actions": "الإجراءات"
+    },
+    "relationships": {
+      "father": "الأب", "mother": "الأم", "brother": "الأخ", "sister": "الأخت",
+      "uncle": "العم/الخال", "aunt": "العمة/الخالة", "grandparent": "الجد/الجدة",
+      "guardian": "ولي أمر قانوني", "other": "أخرى"
+    },
+    "status": { "active": "نشط", "inactive": "غير نشط", "pending": "قيد الانتظار" },
+    "summary": {
+      "total": "إجمالي أولياء الأمور", "active": "نشطون",
+      "emergencyContacts": "جهات الطوارئ", "portalAccess": "صلاحية البوابة"
+    },
+    "messages": {
+      "created": "تم إنشاء ولي الأمر بنجاح.", "updated": "تم تحديث بيانات ولي الأمر.",
+      "deleted": "تم حذف ولي الأمر.", "activated": "تم تفعيل ولي الأمر.",
+      "deactivated": "تم إلغاء تفعيل ولي الأمر.", "notFound": "ولي الأمر غير موجود.",
+      "noLinkedStudents": "لا يوجد طلاب مرتبطون."
+    }
+  }
+,
+  "employees": {
+    "pages": {
+      "list": { "title": "الموظفون", "description": "إدارة ملفات الموظفين والأقسام والسجلات." },
+      "new": { "title": "إضافة موظف جديد", "description": "إنشاء سجل موظف جديد." },
+      "edit": { "title": "تعديل الموظف", "description": "تحديث بيانات الموظف." },
+      "details": { "title": "تفاصيل الموظف", "description": "عرض ملف الموظف وتفاصيله." },
+      "attendance": { "title": "حضور الموظفين", "description": "عرض وإدارة سجلات الحضور." },
+      "leaveRequests": { "title": "طلبات الإجازة", "description": "عرض وإدارة طلبات إجازة الموظفين." },
+      "leaveTypes": { "title": "أنواع الإجازات", "description": "تكوين أنواع الإجازات." }
+    },
+    "actions": {
+      "add": "إضافة موظف", "edit": "تعديل", "view": "عرض", "delete": "حذف",
+      "activate": "تفعيل", "deactivate": "إلغاء التفعيل", "save": "حفظ الموظف",
+      "cancel": "إلغاء", "backToList": "العودة إلى الموظفين", "backToDetails": "العودة إلى التفاصيل",
+      "applyLeave": "تقديم طلب إجازة", "approveLeave": "موافقة", "rejectLeave": "رفض"
+    },
+    "fields": {
+      "firstName": "الاسم الأول", "lastName": "اسم العائلة", "fullName": "الاسم الكامل",
+      "employeeCode": "رقم الموظف", "gender": "الجنس", "dateOfBirth": "تاريخ الميلاد",
+      "email": "البريد الوظيفي", "phone": "الهاتف", "address": "العنوان",
+      "department": "القسم", "designation": "المسمى الوظيفي", "qualification": "المؤهل العلمي",
+      "employmentType": "نوع التوظيف", "joiningDate": "تاريخ الالتحاق",
+      "status": "الحالة", "baseSalary": "الراتب الأساسي", "currency": "العملة"
+    },
+    "sections": {
+      "personal": "المعلومات الشخصية", "job": "معلومات الوظيفة",
+      "contact": "بيانات الاتصال", "payroll": "الرواتب", "attendance": "الحضور", "overview": "نظرة عامة"
+    },
+    "table": {
+      "employee": "الموظف", "department": "القسم", "designation": "المسمى الوظيفي",
+      "phone": "الهاتف", "joiningDate": "تاريخ الالتحاق", "status": "الحالة",
+      "employmentType": "النوع", "actions": "الإجراءات"
+    },
+    "employmentTypes": { "fullTime": "دوام كامل", "partTime": "دوام جزئي", "contract": "عقد", "intern": "متدرب" },
+    "status": { "active": "نشط", "inactive": "غير نشط", "onLeave": "في إجازة", "terminated": "منهية خدمته" },
+    "attendance": { "present": "حاضر", "absent": "غائب", "late": "متأخر", "halfDay": "نصف يوم", "leave": "إجازة" },
+    "leave": {
+      "type": "نوع الإجازة", "from": "من تاريخ", "to": "إلى تاريخ", "days": "الأيام",
+      "reason": "السبب", "status": "الحالة", "applied": "تاريخ التقديم",
+      "reviewed": "راجعه", "notes": "ملاحظات المراجعة",
+      "pending": "قيد الانتظار", "approved": "موافق عليه", "rejected": "مرفوض",
+      "paid": "مدفوع", "unpaid": "غير مدفوع", "maxDays": "أقصى أيام",
+      "addType": "إضافة نوع إجازة", "editType": "تعديل نوع إجازة",
+      "applyLeave": "تقديم إجازة", "deleteTypeConfirm": "حذف نوع الإجازة؟ لا يمكن التراجع."
+    },
+    "summary": { "total": "إجمالي الموظفين", "active": "نشطون", "onLeave": "في إجازة", "terminated": "منهو الخدمة" },
+    "messages": {
+      "created": "تم إنشاء الموظف بنجاح.", "updated": "تم تحديث بيانات الموظف.",
+      "deleted": "تم حذف الموظف.", "activated": "تم تفعيل الموظف.",
+      "deactivated": "تم إلغاء تفعيل الموظف.", "notFound": "الموظف غير موجود.",
+      "leaveApplied": "تم تقديم طلب الإجازة.", "leaveApproved": "تم الموافقة على الإجازة.",
+      "leaveRejected": "تم رفض طلب الإجازة.", "leaveTypeCreated": "تم إنشاء نوع الإجازة.",
+      "leaveTypeUpdated": "تم تحديث نوع الإجازة.", "leaveTypeDeleted": "تم حذف نوع الإجازة."
+    }
+  },
+  "hrm": {
+    "pages": {
+      "payroll": { "title": "الرواتب", "description": "عرض وإدارة سجلات رواتب الموظفين." },
+      "departments": { "title": "الأقسام", "description": "إدارة الأقسام ورؤسائها." },
+      "designations": { "title": "المسميات الوظيفية", "description": "إدارة المسميات الوظيفية." }
+    },
+    "actions": {
+      "add": "إضافة", "edit": "تعديل", "delete": "حذف", "save": "حفظ", "cancel": "إلغاء",
+      "viewPayslip": "عرض كشف الراتب", "addDepartment": "إضافة قسم",
+      "editDepartment": "تعديل القسم", "addDesignation": "إضافة مسمى", "editDesignation": "تعديل المسمى"
+    },
+    "fields": {
+      "employee": "الموظف", "month": "الشهر", "year": "السنة",
+      "basicSalary": "الراتب الأساسي", "allowances": "البدلات", "deductions": "الاستقطاعات",
+      "netSalary": "صافي الراتب", "status": "الحالة",
+      "departmentName": "اسم القسم", "departmentCode": "رمز القسم",
+      "designationTitle": "المسمى", "designationCode": "الرمز",
+      "department": "القسم", "description": "الوصف"
+    },
+    "payroll": {
+      "draft": "مسودة", "processed": "تمت معالجته", "paid": "مدفوع",
+      "payslipTitle": "كشف راتب", "earnings": "الإيرادات", "deductions": "الاستقطاعات",
+      "netPay": "صافي الأجر", "period": "فترة الدفع"
+    },
+    "summary": { "totalPayroll": "إجمالي الرواتب", "paid": "مدفوع", "pending": "معلق", "avgSalary": "متوسط الراتب" },
+    "messages": {
+      "departmentCreated": "تم إنشاء القسم.", "departmentUpdated": "تم تحديث القسم.",
+      "departmentDeleted": "تم حذف القسم.", "designationCreated": "تم إنشاء المسمى الوظيفي.",
+      "designationUpdated": "تم تحديث المسمى الوظيفي.", "designationDeleted": "تم حذف المسمى الوظيفي.",
+      "notFound": "السجل غير موجود."
+    }
+  },
+  "academic": {
+    "classes": {
+      "title": "الفصول",
+      "description": "إدارة المستويات الدراسية وشعبها.",
+      "addClass": "إضافة فصل",
+      "editClass": "تعديل الفصل",
+      "deleteClass": "حذف الفصل",
+      "className": "اسم الفصل",
+      "classCode": "رمز الفصل",
+      "order": "ترتيب العرض",
+      "capacity": "إجمالي الطاقة",
+      "sections": "الشُعب",
+      "status": "الحالة"
+    },
+    "classrooms": {
+      "title": "قاعات الدراسة",
+      "description": "إدارة الغرف والمختبرات وأماكن التعلم.",
+      "addClassroom": "إضافة قاعة",
+      "editClassroom": "تعديل القاعة",
+      "deleteClassroom": "حذف القاعة",
+      "roomName": "اسم الغرفة",
+      "roomCode": "رمز الغرفة",
+      "type": "النوع",
+      "building": "المبنى",
+      "floor": "الطابق",
+      "capacity": "الطاقة",
+      "status": "الحالة",
+      "types": {
+        "classroom": "فصل دراسي",
+        "lab": "مختبر",
+        "auditorium": "قاعة محاضرات",
+        "library": "مكتبة",
+        "other": "أخرى"
+      }
+    },
+    "sections": {
+      "title": "الشُعب",
+      "description": "إدارة شعب الفصول والمعلمين والغرف المخصصة.",
+      "addSection": "إضافة شعبة",
+      "editSection": "تعديل الشعبة",
+      "deleteSection": "حذف الشعبة",
+      "sectionName": "اسم الشعبة",
+      "sectionCode": "رمز الشعبة",
+      "class": "الفصل",
+      "classroom": "القاعة",
+      "teacher": "المعلم المشرف",
+      "capacity": "الطاقة",
+      "status": "الحالة"
+    },
+    "subjects": {
+      "title": "المواد الدراسية",
+      "description": "إدارة المواد المقدمة عبر الفصول.",
+      "addSubject": "إضافة مادة",
+      "editSubject": "تعديل المادة",
+      "deleteSubject": "حذف المادة",
+      "subjectName": "اسم المادة",
+      "subjectCode": "رمز المادة",
+      "type": "النوع",
+      "creditHours": "الساعات المعتمدة",
+      "classes": "الفصول",
+      "status": "الحالة",
+      "types": {
+        "theory": "نظري",
+        "practical": "عملي",
+        "elective": "اختياري"
+      }
+    }
+  },
+  "exams": {
+    "title": "الامتحانات",
+    "description": "إدارة جميع امتحانات المدرسة وجداولها.",
+    "addExam": "إضافة امتحان",
+    "editExam": "تعديل الامتحان",
+    "deleteExam": "حذف الامتحان",
+    "examName": "اسم الامتحان",
+    "termName": "اسم الفصل الدراسي",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "status": "الحالة",
+    "statuses": {
+      "upcoming": "قادم",
+      "ongoing": "جارٍ",
+      "completed": "مكتمل",
+      "cancelled": "ملغى"
+    },
+    "summary": {
+      "total": "إجمالي الامتحانات",
+      "upcoming": "القادمة",
+      "ongoing": "الجارية",
+      "completed": "المكتملة"
+    },
+    "schedule": {
+      "title": "جدول الامتحانات",
+      "description": "عرض وإدارة جدول الامتحانات حسب المادة والفصل.",
+      "addSchedule": "إضافة موعد",
+      "editSchedule": "تعديل الموعد",
+      "deleteSchedule": "حذف الموعد",
+      "exam": "الامتحان",
+      "subject": "المادة",
+      "class": "الفصل",
+      "date": "التاريخ",
+      "startTime": "وقت البدء",
+      "endTime": "وقت الانتهاء",
+      "maxMarks": "الدرجة الكاملة",
+      "passingMarks": "درجة النجاح"
+    },
+    "results": {
+      "title": "نتائج الامتحانات",
+      "description": "عرض وإدارة نتائج وتقديرات الطلاب.",
+      "addResult": "إضافة نتيجة",
+      "editResult": "تعديل النتيجة",
+      "deleteResult": "حذف النتيجة",
+      "student": "الطالب",
+      "subject": "المادة",
+      "class": "الفصل",
+      "marks": "الدرجات",
+      "grade": "التقدير",
+      "result": "النتيجة",
+      "remarks": "ملاحظات",
+      "statuses": {
+        "pass": "ناجح",
+        "fail": "راسب",
+        "absent": "غائب",
+        "pending": "قيد الانتظار"
+      },
+      "summary": {
+        "total": "إجمالي النتائج",
+        "passed": "الناجحون",
+        "failed": "الراسبون",
+        "avgScore": "متوسط النسبة"
+      }
+    }
+  },
+  "fees": {
+    "pages": {
+      "collect": {
+        "title": "تحصيل الرسوم",
+        "description": "تحصيل وتتبع وإدارة جميع فواتير رسوم الطلاب."
+      },
+      "groups": {
+        "title": "مجموعات الرسوم",
+        "description": "إدارة مجموعات الرسوم وتعييناتها."
+      },
+      "types": {
+        "title": "أنواع الرسوم",
+        "description": "تحديد أنواع الرسوم والمبالغ والتكرار."
+      },
+      "discounts": {
+        "title": "خصومات الرسوم",
+        "description": "إدارة خصومات الرسوم والتنازلات."
+      }
+    },
+    "actions": {
+      "collectPayment": "تحصيل الدفع",
+      "viewReceipt": "عرض الإيصال",
+      "addGroup": "إضافة مجموعة رسوم",
+      "addType": "إضافة نوع رسوم",
+      "addDiscount": "إضافة خصم",
+      "export": "تصدير"
+    },
+    "fields": {
+      "invoice": "فاتورة",
+      "invoiceNumber": "رقم الفاتورة",
+      "student": "الطالب",
+      "feeGroup": "مجموعة الرسوم",
+      "feeType": "نوع الرسوم",
+      "amount": "المبلغ",
+      "discount": "الخصم",
+      "netAmount": "الصافي",
+      "paid": "المدفوع",
+      "balance": "الرصيد",
+      "dueDate": "تاريخ الاستحقاق",
+      "paidDate": "تاريخ الدفع",
+      "status": "الحالة",
+      "paymentMethod": "طريقة الدفع",
+      "reference": "المرجع",
+      "notes": "ملاحظات",
+      "groupName": "اسم المجموعة",
+      "code": "الرمز",
+      "description": "الوصف",
+      "typeName": "اسم النوع",
+      "frequency": "التكرار",
+      "discountName": "اسم الخصم",
+      "discountType": "نوع الخصم",
+      "value": "القيمة",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "appliesTo": "ينطبق على"
+    },
+    "summary": {
+      "totalInvoiced": "إجمالي الفواتير",
+      "collected": "المحصّل",
+      "pending": "المعلّق",
+      "overdue": "المتأخر"
+    }
+  },
+  "finance": {
+    "pages": {
+      "incomeHeads": { "title": "رؤوس الدخل", "description": "إدارة فئات سجلات الدخل." },
+      "income": { "title": "الدخل", "description": "تتبع جميع سجلات الدخل." },
+      "expenseHeads": { "title": "رؤوس المصروفات", "description": "إدارة فئات سجلات المصروفات." },
+      "expenses": { "title": "المصروفات", "description": "تتبع جميع سجلات المصروفات." },
+      "transactions": { "title": "المعاملات", "description": "سجل كامل لجميع المعاملات المالية." }
+    },
+    "actions": {
+      "addIncomeHead": "إضافة رأس دخل",
+      "editIncomeHead": "تعديل رأس الدخل",
+      "addIncome": "إضافة دخل",
+      "editIncome": "تعديل الدخل",
+      "addExpenseHead": "إضافة رأس مصروف",
+      "editExpenseHead": "تعديل رأس المصروف",
+      "addExpense": "إضافة مصروف",
+      "editExpense": "تعديل المصروف",
+      "viewTransaction": "عرض المعاملة",
+      "delete": "حذف",
+      "export": "تصدير",
+      "save": "حفظ",
+      "cancel": "إلغاء"
+    },
+    "fields": {
+      "name": "الاسم",
+      "code": "الرمز",
+      "description": "الوصف",
+      "status": "الحالة",
+      "title": "العنوان",
+      "amount": "المبلغ",
+      "currency": "العملة",
+      "incomeHead": "رأس الدخل",
+      "expenseHead": "رأس المصروف",
+      "receivedFrom": "مستلم من",
+      "paidTo": "مدفوع لـ",
+      "paymentMethod": "طريقة الدفع",
+      "date": "التاريخ",
+      "referenceNumber": "رقم المرجع",
+      "notes": "ملاحظات",
+      "type": "النوع"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "pending": "معلّق",
+      "paid": "مدفوع",
+      "received": "مستلم",
+      "cancelled": "ملغى",
+      "failed": "فشل"
+    },
+    "type": {
+      "income": "دخل",
+      "expense": "مصروف",
+      "feePayment": "دفع رسوم",
+      "salary": "راتب",
+      "refund": "استرداد"
+    },
+    "payment": {
+      "cash": "نقداً",
+      "bankTransfer": "تحويل بنكي",
+      "online": "إلكتروني",
+      "cheque": "شيك"
+    },
+    "summary": {
+      "totalIncome": "إجمالي الدخل",
+      "totalExpenses": "إجمالي المصروفات",
+      "netBalance": "الرصيد الصافي",
+      "pendingTransactions": "معلّق",
+      "totalTransactions": "إجمالي المعاملات"
+    },
+    "messages": {
+      "incomeHeadCreated": "تم إنشاء رأس الدخل بنجاح.",
+      "incomeHeadDeleted": "تم حذف رأس الدخل.",
+      "incomeCreated": "تم إنشاء سجل الدخل بنجاح.",
+      "incomeDeleted": "تم حذف سجل الدخل.",
+      "expenseHeadCreated": "تم إنشاء رأس المصروف بنجاح.",
+      "expenseCreated": "تم إنشاء سجل المصروف بنجاح.",
+      "noTransactions": "لم يتم العثور على معاملات."
+    }
+  },
+  "attendance": {
+    "title": {
+      "student": "حضور الطلاب",
+      "teacher": "حضور المعلمين",
+      "employee": "حضور الموظفين"
+    },
+    "description": {
+      "student": "عرض وإدارة سجلات الحضور اليومي لجميع الطلاب.",
+      "teacher": "عرض وإدارة سجلات الحضور اليومي لجميع المعلمين.",
+      "employee": "عرض وإدارة سجلات الحضور اليومي لجميع الموظفين."
+    },
+    "summary": {
+      "present": "حاضر",
+      "absent": "غائب",
+      "late": "متأخر",
+      "halfDay": "نصف يوم",
+      "onLeave": "في إجازة",
+      "attendanceRate": "نسبة الحضور"
+    },
+    "status": {
+      "present": "حاضر",
+      "absent": "غائب",
+      "late": "متأخر",
+      "halfDay": "نصف يوم",
+      "leave": "إجازة",
+      "excused": "معذور",
+      "holiday": "عطلة"
+    },
+    "filters": {
+      "search": "بحث…",
+      "searchStudent": "البحث عن طالب…",
+      "searchTeacher": "البحث عن معلم…",
+      "searchEmployee": "البحث عن موظف…",
+      "status": "الحالة",
+      "allStatuses": "جميع الحالات",
+      "date": "التاريخ",
+      "department": "القسم",
+      "allDepartments": "جميع الأقسام",
+      "class": "الصف",
+      "allClasses": "جميع الصفوف",
+      "clear": "مسح"
+    },
+    "table": {
+      "date": "التاريخ",
+      "student": "الطالب",
+      "teacher": "المعلم",
+      "employee": "الموظف",
+      "admissionNumber": "رقم القبول",
+      "employeeCode": "الرمز",
+      "class": "الصف",
+      "section": "الشعبة",
+      "department": "القسم",
+      "designation": "المسمى الوظيفي",
+      "status": "الحالة",
+      "checkIn": "وقت الحضور",
+      "checkOut": "وقت الانصراف",
+      "actions": "الإجراءات"
+    },
+    "notes": {
+      "title": "ملاحظات الحضور",
+      "description": "إضافة أو تحديث ملاحظات لـ {name} في {date}.",
+      "placeholder": "أضف أي ملاحظات ذات صلة…",
+      "submit": "حفظ",
+      "cancel": "إلغاء"
+    },
+    "bulk": {
+      "selected": "تم تحديد {count} سجل",
+      "selectedPlural": "تم تحديد {count} سجلات",
+      "setStatus": "تعيين الحالة…",
+      "apply": "تطبيق",
+      "deselect": "إلغاء التحديد"
+    },
+    "views": {
+      "table": "جدول",
+      "calendar": "تقويم"
+    },
+    "empty": {
+      "title": "لا توجد سجلات حضور",
+      "description": "لا توجد سجلات تطابق المرشحات الحالية."
+    }
+  },
+  "library": {
+    "title": "المكتبة",
+    "books": "الكتب",
+    "issueReturn": "الإصدار والإرجاع",
+    "members": "الأعضاء",
+    "addBook": "إضافة كتاب",
+    "editBook": "تعديل كتاب",
+    "issueBook": "إصدار كتاب",
+    "returnBook": "إرجاع كتاب",
+    "addMember": "إضافة عضو",
+    "editMember": "تعديل عضو",
+    "memberDetail": "تفاصيل العضو",
+    "borrowingHistory": "سجل الاستعارة",
+    "currentIssues": "الكتب المُصدرة حاليًا",
+    "overview": "نظرة عامة",
+    "stats": {
+      "totalBooks": "إجمالي الكتب",
+      "availableCopies": "النسخ المتاحة",
+      "issuedCopies": "النسخ المُصدرة",
+      "overdue": "المتأخرة",
+      "totalIssued": "إجمالي الإصدارات",
+      "totalReturned": "إجمالي المُرجَعة",
+      "totalOverdue": "إجمالي المتأخرة",
+      "activeMembers": "الأعضاء النشطون",
+      "totalMembers": "إجمالي الأعضاء"
+    },
+    "fields": {
+      "title": "العنوان",
+      "author": "المؤلف",
+      "isbn": "الرقم الدولي",
+      "publisher": "الناشر",
+      "category": "التصنيف",
+      "language": "اللغة",
+      "edition": "الطبعة",
+      "totalCopies": "إجمالي النسخ",
+      "availableCopies": "النسخ المتاحة",
+      "shelfLocation": "موقع الرف",
+      "description": "الوصف",
+      "status": "الحالة",
+      "memberType": "نوع العضو",
+      "linkedEntityId": "معرف الكيان المرتبط",
+      "membershipNumber": "رقم العضوية",
+      "joinedDate": "تاريخ الانضمام",
+      "maxBooksAllowed": "الحد الأقصى للكتب المسموح بها",
+      "notes": "ملاحظات",
+      "bookId": "الكتاب",
+      "memberId": "العضو",
+      "issueDate": "تاريخ الإصدار",
+      "dueDate": "تاريخ الاستحقاق",
+      "returnDate": "تاريخ الإرجاع",
+      "condition": "الحالة",
+      "fineAmount": "مبلغ الغرامة"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "issued": "مُصدر",
+      "returned": "مُرجَع",
+      "overdue": "متأخر",
+      "lost": "مفقود",
+      "good": "جيد",
+      "damaged": "تالف"
+    }
+  },
+  "communication": {
+    "title": "التواصل",
+    "notices": "لوحة الإعلانات",
+    "events": "الفعاليات",
+    "messages": "الرسائل",
+    "addNotice": "إضافة إعلان",
+    "editNotice": "تعديل إعلان",
+    "addEvent": "إضافة فعالية",
+    "editEvent": "تعديل فعالية",
+    "compose": "إنشاء رسالة",
+    "send": "إرسال",
+    "stats": {
+      "totalNotices": "إجمالي الإعلانات",
+      "pinnedNotices": "المثبتة",
+      "activeNotices": "النشطة",
+      "expiredNotices": "المنتهية",
+      "totalEvents": "إجمالي الفعاليات",
+      "upcomingEvents": "القادمة",
+      "ongoingEvents": "الجارية",
+      "completedEvents": "المكتملة",
+      "totalThreads": "إجمالي المحادثات",
+      "unreadThreads": "محادثات غير مقروءة",
+      "unreadMessages": "رسائل غير مقروءة"
+    },
+    "priority": {
+      "low": "منخفض",
+      "medium": "متوسط",
+      "high": "عالٍ",
+      "urgent": "عاجل"
+    },
+    "status": {
+      "draft": "مسودة",
+      "published": "منشور",
+      "archived": "مؤرشف",
+      "upcoming": "قادم",
+      "ongoing": "جارٍ",
+      "completed": "مكتمل",
+      "cancelled": "ملغى"
+    }
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "alerts": "التنبيهات والتفضيلات",
+    "markRead": "تحديد كمقروء",
+    "markAllRead": "تحديد الكل كمقروء",
+    "dismiss": "رفض",
+    "savePreferences": "حفظ التفضيلات",
+    "stats": {
+      "total": "الإجمالي",
+      "unread": "غير مقروء",
+      "read": "مقروء",
+      "systemAlerts": "تنبيهات النظام"
+    },
+    "category": {
+      "fees": "الرسوم",
+      "attendance": "الحضور",
+      "exam": "الامتحانات",
+      "leave": "الإجازات",
+      "notice": "الإشعارات",
+      "message": "الرسائل",
+      "system": "النظام"
+    },
+    "channel": {
+      "email": "البريد الإلكتروني",
+      "sms": "الرسائل القصيرة",
+      "push": "إشعارات الدفع",
+      "in_app": "إشعارات التطبيق"
+    },
+    "audience": {
+      "admin": "المسؤول",
+      "teacher": "المعلم",
+      "student": "الطالب",
+      "parent": "ولي الأمر"
+    }
+  },
+  "certificates": {
+    "pages": {
+      "main": {
+        "title": "الشهادات",
+        "description": "إنشاء الشهادات ومعاينتها وطباعتها للطلاب."
+      }
+    },
+    "actions": {
+      "generate": "إنشاء معاينة",
+      "preview": "معاينة",
+      "print": "طباعة",
+      "download": "تحميل PDF",
+      "reset": "إعادة تعيين",
+      "load": "تحميل في المعاينة",
+      "delete": "حذف",
+      "saveDraft": "حفظ كمسودة"
+    },
+    "fields": {
+      "template": "نموذج الشهادة",
+      "student": "الطالب",
+      "issueDate": "تاريخ الإصدار",
+      "academicYear": "العام الدراسي",
+      "class": "الفصل",
+      "title": "عنوان الشهادة",
+      "remarks": "ملاحظات",
+      "signerName": "اسم الموقع",
+      "signerDesignation": "منصب الموقع",
+      "status": "الحالة"
+    },
+    "templates": {
+      "bonafide": "شهادة حسن النية",
+      "transfer": "شهادة نقل",
+      "character": "شهادة سيرة وسلوك",
+      "completion": "شهادة إتمام",
+      "attendance": "شهادة حضور",
+      "achievement": "شهادة إنجاز",
+      "examResult": "شهادة نتيجة امتحان"
+    },
+    "preview": {
+      "schoolName": "مدرسة إيدو فانتا",
+      "referenceNumber": "رقم المرجع",
+      "issueDate": "التاريخ",
+      "certifiesThat": "يُشهد بأن",
+      "studentName": "اسم الطالب",
+      "admissionNumber": "رقم القبول",
+      "classSection": "الفصل",
+      "academicYear": "العام الدراسي",
+      "signatory": "التوقيع المعتمد",
+      "watermark": "إيدو فانتا",
+      "noPreview": "لم يتم إنشاء معاينة",
+      "selectStudentTemplate": "اختر نموذجاً وطالباً ثم انقر على إنشاء معاينة."
+    },
+    "table": {
+      "certificateId": "رقم الشهادة",
+      "template": "النموذج",
+      "student": "الطالب",
+      "class": "الفصل",
+      "issueDate": "تاريخ الإصدار",
+      "status": "الحالة",
+      "actions": "الإجراءات"
+    },
+    "status": {
+      "draft": "مسودة",
+      "issued": "صادرة",
+      "revoked": "ملغاة",
+      "expired": "منتهية الصلاحية"
+    },
+    "summary": {
+      "total": "الإجمالي",
+      "issued": "صادرة",
+      "draft": "مسودة",
+      "thisMonth": "هذا الشهر"
+    },
+    "messages": {
+      "generated": "تم إنشاء معاينة الشهادة.",
+      "printStarted": "جارٍ فتح نافذة الطباعة...",
+      "downloadMock": "سيتوفر تصدير PDF بعد تكامل الخلفية.",
+      "deleted": "تم حذف سجل الشهادة. (نموذجي)",
+      "notFound": "الشهادة غير موجودة.",
+      "noRecords": "لا توجد سجلات شهادات."
+    }
+  }
+}

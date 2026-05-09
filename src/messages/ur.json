@@ -1,0 +1,1346 @@
+{
+  "common": {
+    "appName": "EduVanta",
+    "tagline": "ذہین اسکول، کالج اور ایل ایم ایس مینجمنٹ",
+    "foundationTitle": "بنیادی تصدیق صفحہ",
+    "foundationDescription": "یہ صفحہ فیز ٢ کی بنیاد کی تصدیق کرتا ہے: ڈیزائن ٹوکنز، تھیم سوئچنگ، لوکیل/RTL، اور کرنسی فارمیٹنگ۔",
+    "currentLocale": "موجودہ زبان",
+    "currentDirection": "متن کی سمت",
+    "sampleAmount": "نمونہ رقم",
+    "save": "محفوظ کریں",
+    "cancel": "منسوخ",
+    "search": "تلاش",
+    "addNew": "نیا شامل کریں",
+    "view": "دیکھیں",
+    "edit": "ترمیم",
+    "delete": "حذف کریں",
+    "loading": "لوڈ ہو رہا ہے...",
+    "noData": "کوئی ڈیٹا نہیں ملا",
+    "confirmDelete": "کیا آپ واقعی اس آئٹم کو حذف کرنا چاہتے ہیں؟",
+    "actions": "اقدامات"
+  },
+  "theme": {
+    "light": "روشن",
+    "dark": "تاریک",
+    "system": "سسٹم",
+    "toggle": "تھیم بدلیں"
+  },
+  "currency": {
+    "label": "کرنسی",
+    "USD": "امریکی ڈالر",
+    "AED": "اماراتی درہم",
+    "SAR": "سعودی ریال",
+    "PKR": "پاکستانی روپیہ",
+    "GBP": "برطانوی پاؤنڈ",
+    "EUR": "یورو",
+    "QAR": "قطری ریال",
+    "KWD": "کویتی دینار",
+    "OMR": "عمانی ریال",
+    "BHD": "بحرینی دینار",
+    "INR": "بھارتی روپیہ"
+  },
+  "navigation": {
+    "dashboard": "ڈیش بورڈ",
+    "schoolDashboard": "اسکول",
+    "studentDashboard": "طالب علم",
+    "teacherDashboard": "استاد",
+    "parentDashboard": "والدین",
+    "lmsDashboard": "ایل ایم ایس",
+    "universityDashboard": "یونیورسٹی",
+    "students": "طلبا",
+    "teachers": "اساتذہ",
+    "guardians": "سرپرست",
+    "employees": "ملازمین",
+    "hrm": "انسانی وسائل",
+    "academic": "تعلیمی امور",
+    "exams": "امتحانات",
+    "fees": "فیس",
+    "finance": "مالیات",
+    "library": "لائبریری",
+    "communication": "مواصلات",
+    "notifications": "اطلاعات",
+    "certificates": "سرٹیفیکیٹس",
+    "settings": "ترتیبات"
+  },
+  "marketing": {
+    "heroTitle": "اپنے اسکول کو اعتماد کے ساتھ منظم کریں",
+    "heroSubtitle": "اسکولوں، کالجوں اور لرننگ مینجمنٹ سسٹمز کے لیے ایک طاقتور کثیر لسانی پلیٹ فارم۔",
+    "ctaGetStarted": "مفت شروع کریں",
+    "ctaViewDemo": "ڈیمو دیکھیں",
+    "nav": {
+      "product": "پروڈکٹ",
+      "roles": "کردار",
+      "pricing": "قیمتیں",
+      "faq": "سوالات",
+      "login": "لاگ ان",
+      "getStarted": "شروع کریں"
+    },
+    "hero": {
+      "eyebrow": "اسکول · کالج · اکیڈمی · ایل ایم ایس",
+      "title": "تعلیمی انتظام کے لیے جدید پلیٹ فارم",
+      "subtitle": "EduVanta طلبا، حاضری، فیس، امتحانات، اور مالیات کو ایک نظام میں جوڑتا ہے۔",
+      "primaryCta": "مفت شروع کریں",
+      "secondaryCta": "ڈیش بورڈ دیکھیں"
+    },
+    "metrics": {
+      "modules": "+12",
+      "modulesLabel": "منیجمنٹ ماڈیولز",
+      "dashboards": "6",
+      "dashboardsLabel": "رول بیسڈ ڈیش بورڈز",
+      "languages": "3",
+      "languagesLabel": "زبانیں",
+      "currencies": "11",
+      "currenciesLabel": "کرنسیاں"
+    },
+    "modules": {
+      "title": "آپ کی ادارے کو سب کچھ چاہیے",
+      "subtitle": "طلبہ داخلے سے تنخواہ تک، ہر ورک فلو ایک پلیٹ فارم میں۔",
+      "items": {
+        "students": "طلبا",
+        "teachers": "اساتذہ",
+        "guardians": "سرپرست",
+        "attendance": "حاضری",
+        "exams": "امتحانات",
+        "fees": "فیس",
+        "finance": "مالیات",
+        "hrm": "انسانی وسائل",
+        "library": "لائبریری",
+        "notices": "نوٹس بورڈ",
+        "events": "تقریبات",
+        "messages": "پیغامات",
+        "settings": "کردار و ترتیبات"
+      }
+    },
+    "roles": {
+      "title": "ہر کردار کے لیے ڈیش بورڈ",
+      "subtitle": "ہر شخصیت کو متعلقہ معلومات و ٹولز کا مرکزی ویو ملتا ہے۔",
+      "items": {
+        "admin": { "name": "ایڈمن / پرنسپل", "desc": "تمام ماڈیولز، رپورٹس، اور ترتیبات تک مکمل رسائی۔" },
+        "teacher": { "name": "استاد", "desc": "کلاسز، ٹائم ٹیبل، حاضری، امتحان شیڈولنگ، پیغامات۔" },
+        "student": { "name": "طالب علم", "desc": "فیس، حاضری، نتائج، نوٹس، اور لائبریری۔" },
+        "parent": { "name": "والدین / سرپرست", "desc": "بچے کی ترقی، فیس کی حیثیت، حاضری، اور نوٹس۔" },
+        "accountant": { "name": "اکاؤنٹنٹ", "desc": "فیس، آمدنی، اخراجات، تنخواہ، اور ٹرانزیکشن رپورٹس۔" },
+        "librarian": { "name": "لائبریرین", "desc": "کتابوں کی فہرست، جاری کرنے اور واپسی، اور ارکان انتظام۔" }
+      }
+    },
+    "dashboardPreview": {
+      "title": "چھ طاقتور ڈیش بورڈز",
+      "subtitle": "ہر سٹیک ہولڈر کے لیے بنایا گیا۔",
+      "items": {
+        "school": "اسکول ڈیش بورڈ",
+        "student": "طالب علم ڈیش بورڈ",
+        "teacher": "استاد ڈیش بورڈ",
+        "parent": "والدین ڈیش بورڈ",
+        "lms": "ایل ایم ایس ڈیش بورڈ",
+        "university": "یونیورسٹی ڈیش بورڈ"
+      }
+    },
+    "global": {
+      "title": "دنیا کے لیے بنایا گیا",
+      "subtitle": "انگریزی، عربی، اور اردو — RTL لے آؤٹ سپورٹ اور 11 علاقائی کرنسیوں کے ساتھ۔",
+      "rtlReady": "RTL لے آؤٹ لے آؤٹ",
+      "rtlDesc": "عربی اور اردو انٹرفیسز فطری طور پر پلٹتی ہیں۔",
+      "multiCurrency": "ملٹی کرنسی سپورٹ",
+      "currencyDesc": "متعدد کرنسیوں میں فیس اور مالیاتی ڈیٹہ دکھائیں۔",
+      "i18nReady": "i18n فرسٹ آرکیٹیکچر",
+      "i18nDesc": "تمام متن ترجمہ کی کنجیوں سے ہے۔"
+    },
+    "finance": {
+      "title": "مالیات آسانہ",
+      "subtitle": "فیس وصولی سے تنخواہ تک، آپ کے ادارے کی مکمل مالیاتی تصویر منظم کریں۔",
+      "items": {
+        "fees": "فیس وصولی",
+        "income": "آمدنی ٹریکنگ",
+        "expenses": "اخراجات منیجمنٹ",
+        "payroll": "تنخواہ فرنٹ اینڈ",
+        "transactions": "ٹرانزیکشن لیجر",
+        "currency": "ملٹی کرنسی ڈسپلے"
+      }
+    },
+    "academic": {
+      "title": "تعلیمی بنیاد، مکمل",
+      "subtitle": "نصاب ترتیب کریں اور نتائج کو اعتماد کے ساتھ ٹریک کریں۔",
+      "items": {
+        "classes": "کلاسز و سیکشنز",
+        "subjects": "مضامین",
+        "timetable": "ٹائم ٹیبل",
+        "exams": "امتحانات و شیڈول",
+        "results": "نتائج",
+        "attendance": "حاضری ٹریکنگ"
+      }
+    },
+    "communication": {
+      "title": "ہر کسی کو مطلع رکھیں",
+      "subtitle": "نوٹس، تقریبات، پیغامات، اور اطلاعات — سب ایک جگہ۔",
+      "items": {
+        "notices": "نوٹس بورڈ",
+        "events": "ایونٹس کیلینڈر",
+        "messages": "اندرونی پیغامات",
+        "notifications": "اطلاعات"
+      }
+    },
+    "pricing": {
+      "title": "سیدھے پلانز",
+      "subtitle": "اپنے ادارے کے لیے مناسب پلان منتخب کریں۔",
+      "note": "قیمتیں مثالی ہیں۔ بلنگ انٹیگریشن آئندہ مرحلے میں آئے گی۔",
+      "mostPopular": "سب سے زیادہ مقبول",
+      "plans": {
+        "starter": { "name": "اسٹارٹر", "desc": "ایک چھوٹے اسکول کے لیے۔", "priceMonthly": 49, "features": ["ایک ہزار طلبا تک", "بنیادی ماڈیولز", "3 ایڈمن اکاؤنٹس", "ایمیل سپورٹ"] },
+        "growth": { "name": "گروتھ", "desc": "بڑھتے اداروں کے لیے۔", "priceMonthly": 129, "features": ["دو ہزار طلبا تک", "تمام ماڈیولز", "10 اکاؤنٹس", "متقدم سپورٹ", "ملٹی کرنسی"] },
+        "institution": { "name": "ادارہ", "desc": "بڑے اسکولوں اور یونیورسٹیوں کے لیے۔", "priceMonthly": 299, "features": ["لامحدود طلبا", "تمام ماڈیولز", "لامحدود ایڈمنز", "ڈیڈیکیٹیڈ سپورٹ", "کسٹم برینڈنگ", "ملٹی کیمپس"] }
+      },
+      "cta": "شروع کریں",
+      "month": "/ مہینہ"
+    },
+    "faq": {
+      "title": "عام سوالات",
+      "items": {
+        "q1": "کیا EduVanta ابھی صرف فرنٹ اینڈ ہے؟",
+        "a1": "جی ہاں۔ EduVanta ابھی ایک مرحلہ وار بلند معیار کا فرنٹ اینڈ ہے۔",
+        "q2": "کیا یہ عربی اور اردو کو سپورٹ کرتا ہے؟",
+        "a2": "جی ہاں۔ RTL لے آؤٹ سپورٹ مکمل ہے۔",
+        "q3": "کون کون کرنسیاں سپورٹ ہیں؟",
+        "a3": "11 کرنسیاں: USD, AED, SAR, PKR, GBP, EUR, QAR, KWD, OMR, BHD, INR۔",
+        "q4": "کیا بعد میں Supabase سے جوڑا جا سکتا ہے؟",
+        "a4": "جی ہاں۔ ہکس آئندہ مرحلے میں شامل کیے جائیں گے۔",
+        "q5": "کیا اسکول اور کالج دونوں استعمال کر سکتے ہیں؟",
+        "a5": "جی ہاں۔ EduVanta اسکول، کالج، اکیڈمی، اور یونیورسٹی کی شخصیات کو سپورٹ کرتا ہے۔",
+        "q6": "کیا یہ EduDash کی جگہ لیتا ہے یا جدید بناتا ہے؟",
+        "a6": "EduVanta ایک مکمل جدید سازی ہے، Next.js، Tailwind CSS، اور shadcn/ui سے بنایا گیا۔"
+      }
+    },
+    "cta": {
+      "title": "اپنے ادارے کو جدید بنانے کے لیے تیار ہیں؟",
+      "subtitle": "ابھی ڈیش بورڈ دیکھیں یا سائن اپ کریں۔",
+      "primary": "ڈیش بورڈ دیکھیں",
+      "secondary": "مفت شروع کریں"
+    },
+    "footer": {
+      "description": "ایک جدید کثیر لسانی اسکول منیجمنٹ پلیٹ فارم۔",
+      "product": "پروڈکٹ",
+      "modules": "ماڈیولز",
+      "platform": "پلیٹ فارم",
+      "rights": "تمام حقوق محفوظ ہیں۔",
+      "demoNote": "یہ ایک فرنٹ اینڈ ڈیمونسٹریشن ہے۔ بیک اینڈ انٹیگریشن جاری ہے۔",
+      "links": {
+        "dashboard": "ڈیش بورڈ",
+        "pricing": "قیمتیں",
+        "faq": "سوالات",
+        "students": "طلبا",
+        "teachers": "اساتذہ",
+        "fees": "فیس",
+        "finance": "مالیات",
+        "library": "لائبریری",
+        "rtl": "RTL سپورٹ",
+        "i18n": "کثیر لسانی",
+        "themes": "ڈارک موڈ"
+      }
+    }
+  },
+  "auth": {
+    "signIn": "سائن ان",
+    "signUp": "اکاؤنٹ بنائیں",
+    "signOut": "سائن آؤٹ",
+    "email": "ای میل",
+    "password": "پاس ورڈ",
+    "forgotPassword": "پاس ورڈ بھول گئے؟",
+    "rememberMe": "مجھے یاد رکھیں",
+    "createAccount": "نیا اکاؤنٹ بنائیں",
+    "alreadyHaveAccount": "پہلے سے اکاؤنٹ ہے؟"
+  },
+  "dashboard": {
+    "welcome": "خوش آمدید",
+    "overview": "جائزہ",
+    "recentActivity": "حالیہ سرگرمی",
+    "totalStudents": "کل طلبا",
+    "totalTeachers": "کل اساتذہ",
+    "totalRevenue": "کل آمدنی",
+    "attendance": "حاضری",
+    "schoolTitle": "اسکول ڈیش بورڈ",
+    "studentTitle": "طالب علم ڈیش بورڈ",
+    "teacherTitle": "استاد ڈیش بورڈ",
+    "parentTitle": "والدین ڈیش بورڈ",
+    "lmsTitle": "ایل ایم ایس ڈیش بورڈ",
+    "universityTitle": "یونیورسٹی ڈیش بورڈ",
+    "placeholderDescription": "اس پرسونا کے لیے مکمل ڈیش بورڈ مواد فیز 8 میں بنایا جائے گا۔",
+    "phaseNote": "فیز 3 پلیس ہولڈر — صرف لے آؤٹ شیل",
+    "pages": {
+      "school": {
+        "title": "اسکول ڈیش بورڈ",
+        "description": "طلبہ، عملہ، حاضری اور مالی امور کا جائزہ۔"
+      },
+      "student": {
+        "title": "طالب علم ڈیش بورڈ",
+        "description": "آپ کی حاضری، امتحانات، نتائج اور فیس کی صورتحال۔"
+      },
+      "teacher": {
+        "title": "استاد ڈیش بورڈ",
+        "description": "آپ کی کلاسز، طلبہ، حاضری اور آنے والے امتحانات۔"
+      },
+      "parent": {
+        "title": "والدین ڈیش بورڈ",
+        "description": "آپ کے بچے کی حاضری، فیس اور اسکول نوٹیسز۔"
+      },
+      "lms": {
+        "title": "ایل ایم ایس ڈیش بورڈ",
+        "description": "کورس پیش رفت، سیکھنے والوں کی مشغولیت اور تکمیل کی شرح۔"
+      },
+      "university": {
+        "title": "یونیورسٹی ڈیش بورڈ",
+        "description": "شعبہ جات، فیکلٹی، طلبہ اور ادارہ جاتی اعداد و شمار۔"
+      }
+    },
+    "sections": {
+      "overview": "جائزہ",
+      "analytics": "تجزیہ",
+      "quickActions": "فوری اقدامات",
+      "recentActivity": "حالیہ سرگرمی",
+      "notices": "نوٹیسز",
+      "events": "آنے والے واقعات",
+      "attendance": "حاضری",
+      "finance": "مالیات",
+      "performance": "کارکردگی",
+      "timetable": "آج کا شیڈول",
+      "children": "میرے بچے",
+      "learning": "سیکھنے کی پیش رفت"
+    },
+    "actions": {
+      "addStudent": "طالب علم شامل کریں",
+      "collectFees": "فیس جمع کریں",
+      "viewExams": "امتحانات",
+      "noticeBoard": "نوٹس بورڈ",
+      "viewResults": "نتائج دیکھیں",
+      "viewAttendance": "حاضری",
+      "viewFees": "میری فیس",
+      "viewLibrary": "لائبریری",
+      "markAttendance": "حاضری لگائیں",
+      "viewTimetable": "ٹائم ٹیبل",
+      "messageParents": "والدین کو پیغام",
+      "viewChildProfile": "بچے کا پروفائل",
+      "payFees": "فیس ادا کریں",
+      "viewDepartments": "شعبہ جات",
+      "viewTeachers": "اساتذہ",
+      "viewFinance": "مالیات",
+      "viewStudents": "طلبہ",
+      "viewCourses": "کورسز",
+      "viewAssignments": "اسائنمنٹس"
+    },
+    "states": {
+      "loading": "ڈیش بورڈ لوڈ ہو رہا ہے…",
+      "error": "ڈیش بورڈ ڈیٹا لوڈ کرنے میں ناکامی۔",
+      "empty": "ڈیش بورڈ ڈیٹا دستیاب نہیں۔"
+    },
+    "widgets": {
+      "loading": "لوڈ ہو رہا ہے...",
+      "empty": "کوئی ڈیٹا دستیاب نہیں",
+      "noData": "دکھانے کے لیے کوئی ڈیٹا نہیں",
+      "viewAll": "سب دیں",
+      "quickActions": "تیز اقدامات",
+      "recentActivity": "حالیہ سرگرمی",
+      "attendanceSummary": "حاضری کا خلاصہ",
+      "notices": "نوٹیسز",
+      "events": "واقعات"
+    },
+    "trends": {
+      "up": "اوپر",
+      "down": "نیچے",
+      "neutral": "کوئی تبدیلی نہیں",
+      "increase": "اضافہ",
+      "decrease": "کمی"
+    },
+    "metrics": {
+      "students": "کل طلبہ",
+      "teachers": "کل اساتذہ",
+      "guardians": "سرپرست",
+      "revenue": "آمدنی",
+      "attendance": "حاضری",
+      "pendingFees": "زیر التوا فیس"
+    }
+  },
+  "settings": {
+    "general": "عمومی ترتیبات",
+    "languages": "زبانیں",
+    "currencies": "کرنسیاں",
+    "roles": "کردار مینجمنٹ",
+    "assignRoles": "کردار تفویض کریں",
+    "subscription": "سبسکرپشن پلانز"
+  },
+  "validation": {
+    "required": "یہ فیلڈ لازمی ہے",
+    "invalidEmail": "براہ کرم درست ای میل پتہ درج کریں",
+    "minLength": "کم از کم {min} حروف ہونے چاہئیں",
+    "maxLength": "زیادہ سے زیادہ {max} حروف ہو سکتے ہیں",
+    "passwordMismatch": "پاس ورڈ مماثل نہیں ہیں",
+    "termsRequired": "آپ کو شرائط سے متفق ہونا ضروری ہے",
+    "passwordMin": "پاس ورڈ کم از کم 8 حروف کا ہونا ضروری ہے"
+  },
+  "layout": {
+    "skipToMain": "مرکزی مواد پر جائیں",
+    "collapseSidebar": "سائیڈبار بند کریں",
+    "expandSidebar": "سائیڈبار کھولیں",
+    "openMenu": "مینو کھولیں",
+    "closeMenu": "مینو بند کریں"
+  },
+  "shell": {
+    "searchPlaceholder": "تلاش کریں…",
+    "notifications": "اطلاعات",
+    "noNotifications": "کوئی اطلاع نہیں",
+    "profile": "پروفائل",
+    "settings": "ترتیبات",
+    "signOut": "سائن آؤٹ",
+    "demoSchool": "ڈیمو اسکول"
+  },
+  "breadcrumbs": {
+    "home": "ہوم",
+    "dashboard": "ڈیش بورڈ"
+  },
+  "auth": {
+    "common": {
+      "backToHome": "ہوم پر واپس جائیں",
+      "login": "لاگ ان",
+      "register": "شروع کریں",
+      "email": "ای میل پتہ",
+      "password": "پاس ورڈ",
+      "confirmPassword": "پاس ورڈ تصدیق کریں",
+      "newPassword": "نیا پاس ورڈ",
+      "confirmNewPassword": "نئے پاس ورڈ کی تصدیق کریں",
+      "fullName": "پورا نام",
+      "schoolName": "اسکول / ادارے کا نام",
+      "phone": "فون (اختیاری)",
+      "country": "ملک",
+      "preferredLanguage": "پسندیدہ زبان",
+      "preferredCurrency": "پسندیدہ کرنسی",
+      "rememberMe": "30 دن تک یاد رکھیں",
+      "forgotPassword": "پاس ورڈ بھول گئے؟",
+      "showPassword": "پاس ورڈ دیکھیں",
+      "hidePassword": "پاس ورڈ چھپائیں",
+      "submit": "جمع کروائیں",
+      "loading": "براہ کرم انتظار کریں…",
+      "or": "یا",
+      "demoMode": "ڈیمو موڈ",
+      "terms": "میں خدمت کی شرائط اور رازداری کی سیاست سے متفق ہوں"
+    },
+    "login": {
+      "title": "خوش آمدید",
+      "subtitle": "EduVanta ورک سپیس میں سائن ان کریں",
+      "submit": "سائن ان",
+      "noAccount": "کیا آپ کا اکاؤنٹ نہیں ہے؟",
+      "createAccount": "مفت اکاؤنٹ بنائیں",
+      "success": "کامیابی سے سائن ان ہو گیا!",
+      "demoTitle": "ڈیمو رول آزمائیں",
+      "demoSubtitle": "کریدنشلز بھرنے کے لیے کوئی بھی رول کلک کریں",
+      "selectedRole": "ڈیمو رول منتخب ہوگیا"
+    },
+    "register": {
+      "title": "اپنی ورک سپیس بنائیں",
+      "subtitle": "اپنا مفت ٹرائل شروع کریں — کریڈٹ کارڈ کی ضرورت نہیں",
+      "submit": "رسائی کی درخواست",
+      "haveAccount": "کیا آپ کا پہلے سے اکاؤنٹ ہے؟",
+      "signIn": "سائن ان",
+      "successTitle": "درخواست مل گئی!",
+      "successDescription": "آپ کی EduVanta ورک سپیس کی درخواست جائزہ کے لیے تیار ہے۔ ہم جلد آپ سے رابطہ کریں گے۔"
+    },
+    "forgot": {
+      "title": "پاس ورڈ بحال کریں",
+      "subtitle": "اپنا ای میل درج کریں اور ہم بحالی کی ہدایات بھیجیں گے",
+      "submit": "ریسیٹ لنک بھیجیں",
+      "success": "اگر یہ ای میل موجود ہے تو ہدایات بھیج دی گئی ہیں۔",
+      "backToLogin": "لاگ ان پر واپس"
+    },
+    "reset": {
+      "title": "نیا پاس ورڈ سیٹ کریں",
+      "subtitle": "نیچے اپنا نیا پاس ورڈ درج اور تصدیق کریں",
+      "submit": "نیا پاس ورڈ سیٹ کریں",
+      "success": "پاس ورڈ ریسیٹ ڈیمو مکمل ہوگیا۔",
+      "backToLogin": "لاگ ان پر واپس"
+    },
+    "brand": {
+      "title": "تعلیم کو آسانی سے منیج کریں",
+      "subtitle": "30 سے زیادہ ممالک میں اسکولوں اور کالجوں کا اعتماد",
+      "benefits": {
+        "0": "12 سے زیادہ ماڈیول — طلبہ، فیس، امتحانات، ایچ آر ایم، لائبریری",
+        "1": "كثیر اللغوی اور آر ٹی ایل قابل — انگریزی، عربی، اردو",
+        "2": "6 رول ڈیش بورڈ — ایڈمن، استاد، طالب، والدین اور دیگر"
+      }
+    },
+    "roles": {
+      "superAdmin": "سوپر ایڈمن",
+      "admin": "ایڈمن",
+      "principal": "پرنسپل",
+      "teacher": "استاد",
+      "student": "طالب",
+      "parent": "والدین",
+      "guardian": "سرپرست",
+      "accountant": "محاسب",
+      "librarian": "لائبریرین"
+    }
+  },
+  "table": {
+    "search": "تلاش",
+    "searchPlaceholder": "تلاش کریں...",
+    "noResults": "کوئی نتیجہ نہیں ملا",
+    "rowsSelected": "{count} قطاریں منتخب",
+    "rowsPerPage": "فی صفحہ قطاریں",
+    "page": "صفحہ",
+    "of": "از",
+    "previous": "پچھلا",
+    "next": "اگلا",
+    "first": "پہلا",
+    "last": "آخری",
+    "columns": "کالمز",
+    "showHideColumns": "کالمز دکھائیں/چھپائیں",
+    "resetFilters": "فلٹر دوبارہ سیٹ کریں",
+    "export": "برآمد",
+    "exportCsv": "CSV برآمد کریں",
+    "confirmExport": "موجودہ ٹیبل ڈیٹا CSV فائل کے طور پر برآمد کریں؟",
+    "actions": "اقدامات",
+    "view": "دیکھیں",
+    "edit": "ترمیم",
+    "delete": "حذف کریں",
+    "duplicate": "نقل کریں",
+    "confirmDelete": "کیا آپ یقین سے؟ یہ عمل واپس نہیں ہو سکتا۔",
+    "cancel": "منسوخ",
+    "confirm": "تصدیق کریں",
+    "loading": "لوڈ ہو رہا ہے...",
+    "filterBy": "{column} کے مطابق فلٹر",
+    "clearFilters": "فلٹر صاف کریں",
+    "selected": "منتخب"
+  },
+  "forms": {
+    "required": "ضروری",
+    "optional": "اختیاری",
+    "submit": "جمع کروائیں",
+    "cancel": "منسوخ",
+    "reset": "دوبارہ سیٹ کریں",
+    "saveChanges": "تبدیلیاں محفوظ کریں",
+    "uploadFile": "فائل اپلوڈ کریں",
+    "selectedFiles": "{count} فائل منتخب",
+    "noFileSelected": "کوئی فائل نہیں چنی",
+    "validationSummary": "براہ کرم درج ذیل غلطیاں درست کریں:",
+    "showPassword": "پاسورڈ دکھائیں",
+    "hidePassword": "پاسورڈ چھپائیں"
+  },
+  "students": {
+    "pages": {
+      "list": { "title": "طلباء", "description": "طلباء کے داخلے، پروفائل اور ریکارڈ کا انتظام کریں۔" },
+      "new": { "title": "نیا طالب علم شامل کریں", "description": "نئے طالب علم کا ریکارڈ بنائیں۔" },
+      "edit": { "title": "طالب علم میں ترمیم کریں", "description": "طالب علم کی معلومات اپ ڈیٹ کریں۔" },
+      "details": { "title": "طالب علم کی تفصیلات" },
+      "attendance": { "title": "طلباء کی حاضری", "description": "روزانہ حاضری کے ریکارڈ دیکھیں۔" },
+      "categories": { "title": "طلباء کی اقسام", "description": "طلباء کو اقسام میں منظم کریں۔" },
+      "suspended": { "title": "معطل طلباء", "description": "فی الحال معطل طلباء۔" }
+    },
+    "actions": {
+      "add": "طالب علم شامل کریں", "edit": "ترمیم", "view": "دیکھیں", "delete": "حذف کریں",
+      "suspend": "معطل کریں", "activate": "فعال کریں", "save": "محفوظ کریں", "cancel": "منسوخ کریں",
+      "backToList": "طلباء کی فہرست پر واپس جائیں", "addCategory": "قسم شامل کریں", "editCategory": "قسم میں ترمیم"
+    },
+    "fields": {
+      "firstName": "پہلا نام", "lastName": "آخری نام", "fullName": "پورا نام",
+      "admissionNumber": "داخلہ نمبر", "rollNumber": "رول نمبر", "gender": "جنس",
+      "dateOfBirth": "تاریخ پیدائش", "bloodGroup": "بلڈ گروپ", "email": "ای میل",
+      "phone": "فون", "address": "پتہ", "class": "جماعت", "section": "سیکشن",
+      "category": "قسم", "admissionDate": "داخلہ کی تاریخ", "academicYear": "تعلیمی سال",
+      "status": "حیثیت", "guardian": "سرپرست", "guardianPhone": "سرپرست کا فون",
+      "guardianEmail": "سرپرست کا ای میل", "fatherName": "والد کا نام", "motherName": "والدہ کا نام",
+      "profileImage": "پروفائل تصویر"
+    },
+    "sections": {
+      "personal": "ذاتی معلومات", "academic": "تعلیمی معلومات",
+      "guardian": "سرپرست / والدین کی معلومات", "contact": "رابطہ کی تفصیلات",
+      "attendance": "حاضری", "fees": "فیس کا خلاصہ", "overview": "جائزہ"
+    },
+    "table": {
+      "student": "طالب علم", "rollNumber": "رول نمبر", "class": "جماعت",
+      "section": "سیکشن", "guardian": "سرپرست", "phone": "فون",
+      "status": "حیثیت", "actions": "اقدامات"
+    },
+    "status": {
+      "active": "فعال", "inactive": "غیر فعال", "suspended": "معطل",
+      "graduated": "فارغ التحصیل", "transferred": "منتقل"
+    },
+    "attendance": { "present": "حاضر", "absent": "غیر حاضر", "late": "دیر سے", "halfDay": "نصف دن" },
+    "summary": { "total": "کل طلباء", "active": "فعال", "suspended": "معطل", "newAdmissions": "نئے داخلے" },
+    "messages": {
+      "created": "طالب علم کامیابی سے بنایا گیا۔", "updated": "طالب علم کی معلومات اپ ڈیٹ ہو گئی۔",
+      "deleted": "طالب علم حذف ہو گیا۔", "suspended": "طالب علم معطل ہو گیا۔", "activated": "طالب علم فعال ہو گیا۔",
+      "categoryCreated": "قسم بن گئی۔", "categoryUpdated": "قسم اپ ڈیٹ ہو گئی۔", "notFound": "طالب علم نہیں ملا۔"
+    },
+    "categories": {
+      "name": "قسم کا نام", "description": "تفصیل", "studentCount": "طلباء",
+      "status": "حیثیت", "addTitle": "قسم شامل کریں", "editTitle": "قسم میں ترمیم",
+      "deleteConfirm": "یہ قسم حذف کریں؟ یہ عمل واپس نہیں ہو سکتا۔"
+    },
+    "suspended": {
+      "suspendedDate": "معطلی کی تاریخ", "reason": "وجہ",
+      "reactivate": "دوبارہ فعال کریں", "reactivateConfirm": "اس طالب علم کو دوبارہ فعال کریں؟"
+    }
+  },
+  "teachers": {
+    "pages": {
+      "list": { "title": "اساتذہ", "description": "اساتذہ کے پروفائل، اسائنمنٹ اور ریکارڈ کا انتظام۔" },
+      "new": { "title": "نیا استاد شامل کریں", "description": "نیا استاد ریکارڈ بنائیں۔" },
+      "edit": { "title": "استاد میں ترمیم", "description": "استاد کی معلومات اپ ڈیٹ کریں۔" },
+      "details": { "title": "استاد کی تفصیل" },
+      "attendance": { "title": "اساتذہ کی حاضری", "description": "روزانہ حاضری کے ریکارڈ دیکھیں۔" },
+      "timetable": { "title": "اساتذہ کا ٹائم ٹیبل", "description": "ہفتہ وار کلاس شیڈول دیکھیں۔" }
+    },
+    "actions": {
+      "add": "استاد شامل کریں", "edit": "ترمیم", "view": "دیکھیں", "delete": "حذف کریں",
+      "activate": "فعال کریں", "deactivate": "غیر فعال کریں", "save": "استاد محفوظ کریں",
+      "cancel": "منسوخ", "backToList": "اساتذہ پر واپس",
+      "viewTimetable": "ٹائم ٹیبل دیکھیں", "markAttendance": "حاضری لگائیں"
+    },
+    "fields": {
+      "firstName": "پہلا نام", "lastName": "خاندانی نام", "fullName": "پورا نام",
+      "teacherCode": "استاد کوڈ", "employeeNumber": "ملازم نمبر", "gender": "جنس",
+      "dateOfBirth": "تاریخ پیدائش", "email": "ای میل", "phone": "فون",
+      "alternatePhone": "متبادل فون", "address": "پتہ", "department": "شعبہ",
+      "designation": "عہدہ", "qualification": "تعلیمی قابلیت",
+      "experienceYears": "تجربے کے سال", "joiningDate": "شمولیت کی تاریخ",
+      "status": "حیثیت", "subjects": "مضامین", "classes": "کلاسیں",
+      "profileImage": "پروفائل تصویر", "emergencyContactName": "ہنگامی رابطہ نام",
+      "emergencyContactPhone": "ہنگامی رابطہ فون", "notes": "نوٹس"
+    },
+    "sections": {
+      "personal": "ذاتی معلومات", "professional": "پیشہ ورانہ معلومات",
+      "contact": "رابطہ معلومات", "emergency": "ہنگامی رابطہ",
+      "academic": "مضامین / تعلیمی", "classes": "کلاسیں",
+      "attendance": "حاضری", "timetable": "ٹائم ٹیبل", "overview": "جائزہ"
+    },
+    "table": {
+      "teacher": "استاد", "department": "شعبہ", "subjects": "مضامین",
+      "classes": "کلاسیں", "phone": "فون", "joiningDate": "شمولیت کی تاریخ",
+      "status": "حیثیت", "actions": "اقدامات"
+    },
+    "status": { "active": "فعال", "inactive": "غیر فعال", "onLeave": "رخصت پر", "suspended": "معطل" },
+    "attendance": { "present": "حاضر", "absent": "غیر حاضر", "late": "دیر سے", "halfDay": "نصف روز", "leave": "رخصت" },
+    "timetable": {
+      "day": "دن", "time": "وقت", "subject": "مضمون", "class": "کلاس",
+      "room": "کمرہ", "teacher": "استاد", "noEvents": "ٹائم ٹیبل میں کوئی اندراج نہیں۔"
+    },
+    "summary": { "total": "کل اساتذہ", "active": "فعال", "onLeave": "رخصت پر", "departments": "شعبے" },
+    "messages": {
+      "created": "استاد کامیابی سے بنایا گیا۔", "updated": "استاد کی معلومات اپ ڈیٹ ہوئی۔",
+      "deleted": "استاد حذف ہو گیا۔", "activated": "استاد فعال ہو گیا۔",
+      "deactivated": "استاد غیر فعال ہو گیا۔", "notFound": "استاد نہیں ملا۔"
+    }
+  },
+  "guardians": {
+    "pages": {
+      "list": { "title": "سرپرست", "description": "سرپرستوں کے پروفائل، رابطہ معلومات اور طالب علم روابط کا انتظام۔" },
+      "new": { "title": "نیا سرپرست شامل کریں", "description": "نیا سرپرست ریکارڈ بنائیں۔" },
+      "edit": { "title": "سرپرست میں ترمیم", "description": "سرپرست کی معلومات اپ ڈیٹ کریں۔" },
+      "details": { "title": "سرپرست کی تفصیل", "description": "سرپرست کا پروفائل اور منسلک طالب علم دیکھیں۔" }
+    },
+    "actions": {
+      "add": "سرپرست شامل کریں", "edit": "ترمیم", "view": "دیکھیں", "delete": "حذف کریں",
+      "activate": "فعال کریں", "deactivate": "غیر فعال کریں", "save": "سرپرست محفوظ کریں",
+      "cancel": "منسوخ", "backToList": "سرپرستوں پر واپس",
+      "backToDetails": "تفصیل پر واپس",
+      "viewStudent": "طالب علم دیکھیں", "linkStudent": "طالب علم جوڑیں"
+    },
+    "fields": {
+      "firstName": "پہلا نام", "lastName": "خاندانی نام", "fullName": "پورا نام",
+      "relationship": "رشتہ", "occupation": "پیشہ", "nationalId": "قومی شناختی کارڈ",
+      "email": "ای میل", "phone": "فون", "alternatePhone": "متبادل فون",
+      "address": "پتہ", "city": "شہر", "country": "ملک",
+      "status": "حیثیت", "profileImage": "پروفائل تصویر",
+      "emergencyContact": "ہنگامی رابطہ", "portalAccess": "پورٹل رسائی",
+      "linkedStudents": "منسلک طالب علم", "primaryStudent": "بنیادی طالب علم"
+    },
+    "sections": {
+      "personal": "ذاتی معلومات", "contact": "رابطہ معلومات",
+      "emergency": "ہنگامی رابطہ", "access": "پورٹل رسائی",
+      "linkedStudents": "منسلک طالب علم", "overview": "جائزہ"
+    },
+    "table": {
+      "guardian": "سرپرست", "relationship": "رشتہ", "phone": "فون",
+      "email": "ای میل", "linkedStudents": "منسلک طالب علم",
+      "portalAccess": "پورٹل رسائی", "status": "حیثیت", "actions": "اقدامات"
+    },
+    "relationships": {
+      "father": "والد", "mother": "والدہ", "brother": "بھائی", "sister": "بہن",
+      "uncle": "چچا/ماموں", "aunt": "پھوپھی/خالہ", "grandparent": "دادا/نانا",
+      "guardian": "قانونی سرپرست", "other": "دیگر"
+    },
+    "status": { "active": "فعال", "inactive": "غیر فعال", "pending": "زیر التواء" },
+    "summary": {
+      "total": "کل سرپرست", "active": "فعال",
+      "emergencyContacts": "ہنگامی رابطے", "portalAccess": "پورٹل رسائی"
+    },
+    "messages": {
+      "created": "سرپرست کامیابی سے بنایا گیا۔", "updated": "سرپرست کی معلومات اپ ڈیٹ ہوئی۔",
+      "deleted": "سرپرست حذف ہو گیا۔", "activated": "سرپرست فعال ہو گیا۔",
+      "deactivated": "سرپرست غیر فعال ہو گیا۔", "notFound": "سرپرست نہیں ملا۔",
+      "noLinkedStudents": "کوئی منسلک طالب علم نہیں۔"
+    }
+  }
+,
+  "employees": {
+    "pages": {
+      "list": { "title": "ملازمین", "description": "ملازمین کے پروفائلز اور ریکارڈز کا انتظام کریں۔" },
+      "new": { "title": "نیا ملازم شامل کریں", "description": "نیا ملازم ریکارڈ بنائیں۔" },
+      "edit": { "title": "ملازم میں ترمیم", "description": "ملازم کی معلومات اپڈیٹ کریں۔" },
+      "details": { "title": "ملازم کی تفصیل", "description": "ملازم کا پروفائل دیکھیں۔" },
+      "attendance": { "title": "ملازمین کی حاضری", "description": "روزانہ کی حاضری کے ریکارڈز دیکھیں۔" },
+      "leaveRequests": { "title": "چھٹی کی درخواستیں", "description": "ملازمین کی چھٹی کی درخواستیں دیکھیں۔" },
+      "leaveTypes": { "title": "چھٹی کی اقسام", "description": "چھٹی کی اقسام ترتیب دیں۔" }
+    },
+    "actions": {
+      "add": "ملازم شامل کریں", "edit": "ترمیم", "view": "دیکھیں", "delete": "حذف کریں",
+      "activate": "فعال کریں", "deactivate": "غیر فعال کریں", "save": "ملازم محفوظ کریں",
+      "cancel": "منسوخ", "backToList": "ملازمین کی فہرست پر واپس جائیں",
+      "backToDetails": "تفصیل پر واپس", "applyLeave": "چھٹی درخواست دیں",
+      "approveLeave": "منظور کریں", "rejectLeave": "رد کریں"
+    },
+    "fields": {
+      "firstName": "پہلا نام", "lastName": "آخری نام", "fullName": "پورا نام",
+      "employeeCode": "ملازم کوڈ", "gender": "جنس", "dateOfBirth": "تاریخ پیدائش",
+      "email": "کام کی ای میل", "phone": "فون", "address": "پتہ",
+      "department": "محکمہ", "designation": "عہدہ", "qualification": "تعلیمی قابلیت",
+      "employmentType": "ملازمت کی قسم", "joiningDate": "شمولیت کی تاریخ",
+      "status": "حیثیت", "baseSalary": "بنیادی تنخواہ", "currency": "کرنسی"
+    },
+    "sections": {
+      "personal": "ذاتی معلومات", "job": "ملازمت کی معلومات",
+      "contact": "رابطہ کی تفصیل", "payroll": "تنخواہ", "attendance": "حاضری", "overview": "جائزہ"
+    },
+    "table": {
+      "employee": "ملازم", "department": "محکمہ", "designation": "عہدہ",
+      "phone": "فون", "joiningDate": "شمولیت کی تاریخ", "status": "حیثیت",
+      "employmentType": "قسم", "actions": "اقدامات"
+    },
+    "employmentTypes": { "fullTime": "کل وقتی", "partTime": "جزوقتی", "contract": "معاہدہ", "intern": "انٹرن" },
+    "status": { "active": "فعال", "inactive": "غیر فعال", "onLeave": "چھٹی پر", "terminated": "ختم شدہ" },
+    "attendance": { "present": "حاضر", "absent": "غیر حاضر", "late": "دیر سے", "halfDay": "آدھا دن", "leave": "چھٹی" },
+    "leave": {
+      "type": "چھٹی کی قسم", "from": "شروع تاریخ", "to": "ختم تاریخ", "days": "دن",
+      "reason": "وجہ", "status": "حیثیت", "applied": "درخواست کی تاریخ",
+      "reviewed": "جائزہ لیا", "notes": "نوٹس",
+      "pending": "زیر التواء", "approved": "منظور", "rejected": "مسترد",
+      "paid": "با معاوضہ", "unpaid": "بلا معاوضہ", "maxDays": "زیادہ سے زیادہ دن",
+      "addType": "چھٹی کی قسم شامل کریں", "editType": "چھٹی کی قسم میں ترمیم",
+      "applyLeave": "چھٹی درخواست دیں", "deleteTypeConfirm": "یہ چھٹی قسم حذف کریں؟"
+    },
+    "summary": { "total": "کل ملازمین", "active": "فعال", "onLeave": "چھٹی پر", "terminated": "ختم شدہ" },
+    "messages": {
+      "created": "ملازم کامیابی سے بنایا گیا۔", "updated": "ملازم کی معلومات اپڈیٹ ہوئیں۔",
+      "deleted": "ملازم حذف ہو گیا۔", "activated": "ملازم فعال ہو گیا۔",
+      "deactivated": "ملازم غیر فعال ہو گیا۔", "notFound": "ملازم نہیں ملا۔",
+      "leaveApplied": "چھٹی کی درخواست جمع ہوئی۔", "leaveApproved": "چھٹی منظور ہوئی۔",
+      "leaveRejected": "چھٹی کی درخواست مسترد ہوئی۔", "leaveTypeCreated": "چھٹی کی قسم بنائی گئی۔",
+      "leaveTypeUpdated": "چھٹی کی قسم اپڈیٹ ہوئی۔", "leaveTypeDeleted": "چھٹی کی قسم حذف ہوئی۔"
+    }
+  },
+  "hrm": {
+    "pages": {
+      "payroll": { "title": "تنخواہ", "description": "ملازمین کی تنخواہ کے ریکارڈز دیکھیں۔" },
+      "departments": { "title": "محکمے", "description": "محکموں اور ان کے سربراہوں کا انتظام کریں۔" },
+      "designations": { "title": "عہدے", "description": "ملازمتی عہدوں کا انتظام کریں۔" }
+    },
+    "actions": {
+      "add": "شامل کریں", "edit": "ترمیم", "delete": "حذف", "save": "محفوظ", "cancel": "منسوخ",
+      "viewPayslip": "تنخواہ پرچی دیکھیں", "addDepartment": "محکمہ شامل کریں",
+      "editDepartment": "محکمہ ترمیم کریں", "addDesignation": "عہدہ شامل کریں", "editDesignation": "عہدہ ترمیم کریں"
+    },
+    "fields": {
+      "employee": "ملازم", "month": "مہینہ", "year": "سال",
+      "basicSalary": "بنیادی تنخواہ", "allowances": "الاؤنس", "deductions": "کٹوتیاں",
+      "netSalary": "خالص تنخواہ", "status": "حیثیت",
+      "departmentName": "محکمے کا نام", "departmentCode": "محکمے کا کوڈ",
+      "designationTitle": "عنوان", "designationCode": "کوڈ",
+      "department": "محکمہ", "description": "تفصیل"
+    },
+    "payroll": {
+      "draft": "مسودہ", "processed": "پراسیس شدہ", "paid": "ادا شدہ",
+      "payslipTitle": "تنخواہ پرچی", "earnings": "آمدنی", "deductions": "کٹوتیاں",
+      "netPay": "خالص ادائیگی", "period": "ادائیگی کا عرصہ"
+    },
+    "summary": { "totalPayroll": "کل تنخواہ", "paid": "ادا شدہ", "pending": "زیر التواء", "avgSalary": "اوسط تنخواہ" },
+    "messages": {
+      "departmentCreated": "محکمہ بنایا گیا۔", "departmentUpdated": "محکمہ اپڈیٹ ہوا۔",
+      "departmentDeleted": "محکمہ حذف ہوا۔", "designationCreated": "عہدہ بنایا گیا۔",
+      "designationUpdated": "عہدہ اپڈیٹ ہوا۔", "designationDeleted": "عہدہ حذف ہوا۔",
+      "notFound": "ریکارڈ نہیں ملا۔"
+    }
+  },
+  "academic": {
+    "classes": {
+      "title": "جماعتیں",
+      "description": "جماعت کی سطحوں اور شعبوں کا انتظام کریں۔",
+      "addClass": "جماعت شامل کریں",
+      "editClass": "جماعت ترمیم کریں",
+      "deleteClass": "جماعت حذف کریں",
+      "className": "جماعت کا نام",
+      "classCode": "جماعت کا کوڈ",
+      "order": "ترتیب نمبر",
+      "capacity": "کل گنجائش",
+      "sections": "سیکشنز",
+      "status": "حیثیت"
+    },
+    "classrooms": {
+      "title": "کمرہ جماعت",
+      "description": "کمرے، لیب، اور تعلیمی جگہوں کا انتظام کریں۔",
+      "addClassroom": "کمرہ شامل کریں",
+      "editClassroom": "کمرہ ترمیم کریں",
+      "deleteClassroom": "کمرہ حذف کریں",
+      "roomName": "کمرے کا نام",
+      "roomCode": "کمرے کا کوڈ",
+      "type": "قسم",
+      "building": "عمارت",
+      "floor": "منزل",
+      "capacity": "گنجائش",
+      "status": "حیثیت",
+      "types": {
+        "classroom": "کمرہ جماعت",
+        "lab": "لیبارٹری",
+        "auditorium": "آڈیٹوریم",
+        "library": "لائبریری",
+        "other": "دیگر"
+      }
+    },
+    "sections": {
+      "title": "سیکشنز",
+      "description": "جماعت کے سیکشنز اور اساتذہ و کمروں کا انتظام کریں۔",
+      "addSection": "سیکشن شامل کریں",
+      "editSection": "سیکشن ترمیم کریں",
+      "deleteSection": "سیکشن حذف کریں",
+      "sectionName": "سیکشن کا نام",
+      "sectionCode": "سیکشن کا کوڈ",
+      "class": "جماعت",
+      "classroom": "کمرہ",
+      "teacher": "کلاس ٹیچر",
+      "capacity": "گنجائش",
+      "status": "حیثیت"
+    },
+    "subjects": {
+      "title": "مضامین",
+      "description": "تمام جماعتوں میں پڑھائے جانے والے مضامین کا انتظام کریں۔",
+      "addSubject": "مضمون شامل کریں",
+      "editSubject": "مضمون ترمیم کریں",
+      "deleteSubject": "مضمون حذف کریں",
+      "subjectName": "مضمون کا نام",
+      "subjectCode": "مضمون کا کوڈ",
+      "type": "قسم",
+      "creditHours": "کریڈٹ گھنٹے",
+      "classes": "جماعتیں",
+      "status": "حیثیت",
+      "types": {
+        "theory": "نظری",
+        "practical": "عملی",
+        "elective": "اختیاری"
+      }
+    }
+  },
+  "exams": {
+    "title": "امتحانات",
+    "description": "اسکول کے تمام امتحانات اور ان کے نظام الاوقات کا انتظام کریں۔",
+    "addExam": "امتحان شامل کریں",
+    "editExam": "امتحان ترمیم کریں",
+    "deleteExam": "امتحان حذف کریں",
+    "examName": "امتحان کا نام",
+    "termName": "مدت کا نام",
+    "startDate": "شروع کی تاریخ",
+    "endDate": "ختم کی تاریخ",
+    "status": "حیثیت",
+    "statuses": {
+      "upcoming": "آنے والا",
+      "ongoing": "جاری",
+      "completed": "مکمل",
+      "cancelled": "منسوخ"
+    },
+    "summary": {
+      "total": "کل امتحانات",
+      "upcoming": "آنے والے",
+      "ongoing": "جاری",
+      "completed": "مکمل"
+    },
+    "schedule": {
+      "title": "امتحانی نظام الاوقات",
+      "description": "مضمون اور جماعت کے مطابق امتحانی شیڈول دیکھیں اور ترتیب دیں۔",
+      "addSchedule": "شیڈول شامل کریں",
+      "editSchedule": "شیڈول ترمیم کریں",
+      "deleteSchedule": "شیڈول حذف کریں",
+      "exam": "امتحان",
+      "subject": "مضمون",
+      "class": "جماعت",
+      "date": "تاریخ",
+      "startTime": "شروع کا وقت",
+      "endTime": "ختم کا وقت",
+      "maxMarks": "کل نمبر",
+      "passingMarks": "پاس نمبر"
+    },
+    "results": {
+      "title": "امتحانی نتائج",
+      "description": "طالب علموں کے امتحانی نتائج اور گریڈ دیکھیں اور ترتیب دیں۔",
+      "addResult": "نتیجہ شامل کریں",
+      "editResult": "نتیجہ ترمیم کریں",
+      "deleteResult": "نتیجہ حذف کریں",
+      "student": "طالب علم",
+      "subject": "مضمون",
+      "class": "جماعت",
+      "marks": "نمبر",
+      "grade": "درجہ",
+      "result": "نتیجہ",
+      "remarks": "تبصرہ",
+      "statuses": {
+        "pass": "کامیاب",
+        "fail": "ناکام",
+        "absent": "غیر حاضر",
+        "pending": "زیر التوا"
+      },
+      "summary": {
+        "total": "کل نتائج",
+        "passed": "کامیاب",
+        "failed": "ناکام",
+        "avgScore": "اوسط نمبر"
+      }
+    }
+  },
+  "fees": {
+    "pages": {
+      "collect": {
+        "title": "فیس وصولی",
+        "description": "تمام طلبہ کی فیس کی رسیدوں کو وصول، ٹریک اور منظم کریں۔"
+      },
+      "groups": {
+        "title": "فیس گروپس",
+        "description": "فیس گروپس اور ان کی تفویض کا انتظام کریں۔"
+      },
+      "types": {
+        "title": "فیس کی اقسام",
+        "description": "فیس کی اقسام، رقم اور تکرار متعین کریں۔"
+      },
+      "discounts": {
+        "title": "فیس رعایتیں",
+        "description": "فیس رعایتوں اور چھوٹ کا انتظام کریں۔"
+      }
+    },
+    "actions": {
+      "collectPayment": "ادائیگی وصول کریں",
+      "viewReceipt": "رسید دیکھیں",
+      "addGroup": "فیس گروپ شامل کریں",
+      "addType": "فیس قسم شامل کریں",
+      "addDiscount": "رعایت شامل کریں",
+      "export": "برآمد کریں"
+    },
+    "fields": {
+      "invoice": "رسید",
+      "invoiceNumber": "رسید نمبر",
+      "student": "طالب علم",
+      "feeGroup": "فیس گروپ",
+      "feeType": "فیس قسم",
+      "amount": "رقم",
+      "discount": "رعایت",
+      "netAmount": "خالص رقم",
+      "paid": "ادا شدہ",
+      "balance": "بقایا",
+      "dueDate": "واجب الادا تاریخ",
+      "paidDate": "ادائیگی کی تاریخ",
+      "status": "صورتحال",
+      "paymentMethod": "ادائیگی کا طریقہ",
+      "reference": "حوالہ",
+      "notes": "نوٹس",
+      "groupName": "گروپ کا نام",
+      "code": "کوڈ",
+      "description": "تفصیل",
+      "typeName": "قسم کا نام",
+      "frequency": "تکرار",
+      "discountName": "رعایت کا نام",
+      "discountType": "رعایت کی قسم",
+      "value": "قدر",
+      "startDate": "آغاز کی تاریخ",
+      "endDate": "اختتام کی تاریخ",
+      "appliesTo": "پر لاگو ہوتا ہے"
+    },
+    "summary": {
+      "totalInvoiced": "کل رسیدیں",
+      "collected": "وصول شدہ",
+      "pending": "زیر التواء",
+      "overdue": "میعاد گزر چکی"
+    }
+  },
+  "finance": {
+    "pages": {
+      "incomeHeads": { "title": "آمدنی کی مدیں", "description": "آمدنی کے اندراجات کی اقسام کا انتظام کریں۔" },
+      "income": { "title": "آمدنی", "description": "تمام آمدنی کے اندراجات ٹریک کریں۔" },
+      "expenseHeads": { "title": "اخراجات کی مدیں", "description": "اخراجات کے اندراجات کی اقسام کا انتظام کریں۔" },
+      "expenses": { "title": "اخراجات", "description": "تمام اخراجات کے اندراجات ٹریک کریں۔" },
+      "transactions": { "title": "لین دین", "description": "تمام مالی لین دین کا مکمل ریکارڈ۔" }
+    },
+    "actions": {
+      "addIncomeHead": "آمدنی کی مد شامل کریں",
+      "editIncomeHead": "آمدنی کی مد ترمیم کریں",
+      "addIncome": "آمدنی شامل کریں",
+      "editIncome": "آمدنی ترمیم کریں",
+      "addExpenseHead": "اخراجات کی مد شامل کریں",
+      "editExpenseHead": "اخراجات کی مد ترمیم کریں",
+      "addExpense": "اخراجات شامل کریں",
+      "editExpense": "اخراجات ترمیم کریں",
+      "viewTransaction": "لین دین دیکھیں",
+      "delete": "حذف کریں",
+      "export": "برآمد",
+      "save": "محفوظ کریں",
+      "cancel": "منسوخ کریں"
+    },
+    "fields": {
+      "name": "نام",
+      "code": "کوڈ",
+      "description": "تفصیل",
+      "status": "حالت",
+      "title": "عنوان",
+      "amount": "رقم",
+      "currency": "کرنسی",
+      "incomeHead": "آمدنی کی مد",
+      "expenseHead": "اخراجات کی مد",
+      "receivedFrom": "موصول از",
+      "paidTo": "ادا کردہ بہ",
+      "paymentMethod": "ادائیگی کا طریقہ",
+      "date": "تاریخ",
+      "referenceNumber": "حوالہ نمبر",
+      "notes": "نوٹس",
+      "type": "قسم"
+    },
+    "status": {
+      "active": "فعال",
+      "inactive": "غیر فعال",
+      "pending": "زیر التواء",
+      "paid": "ادا شدہ",
+      "received": "وصول شدہ",
+      "cancelled": "منسوخ",
+      "failed": "ناکام"
+    },
+    "type": {
+      "income": "آمدنی",
+      "expense": "اخراجات",
+      "feePayment": "فیس ادائیگی",
+      "salary": "تنخواہ",
+      "refund": "واپسی"
+    },
+    "payment": {
+      "cash": "نقد",
+      "bankTransfer": "بینک ٹرانسفر",
+      "online": "آن لائن",
+      "cheque": "چیک"
+    },
+    "summary": {
+      "totalIncome": "کل آمدنی",
+      "totalExpenses": "کل اخراجات",
+      "netBalance": "خالص بیلنس",
+      "pendingTransactions": "زیر التواء",
+      "totalTransactions": "کل لین دین"
+    },
+    "messages": {
+      "incomeHeadCreated": "آمدنی کی مد کامیابی سے بنائی گئی۔",
+      "incomeHeadDeleted": "آمدنی کی مد حذف ہو گئی۔",
+      "incomeCreated": "آمدنی کا اندراج کامیابی سے بنایا گیا۔",
+      "incomeDeleted": "آمدنی کا اندراج حذف ہو گیا۔",
+      "expenseHeadCreated": "اخراجات کی مد کامیابی سے بنائی گئی۔",
+      "expenseCreated": "اخراجات کا اندراج کامیابی سے بنایا گیا۔",
+      "noTransactions": "کوئی لین دین نہیں ملا۔"
+    }
+  },
+  "attendance": {
+    "title": {
+      "student": "طلبہ کی حاضری",
+      "teacher": "اساتذہ کی حاضری",
+      "employee": "ملازمین کی حاضری"
+    },
+    "description": {
+      "student": "تمام طلبہ کی روزانہ حاضری کے ریکارڈ دیکھیں اور منظم کریں۔",
+      "teacher": "تمام اساتذہ کی روزانہ حاضری کے ریکارڈ دیکھیں اور منظم کریں۔",
+      "employee": "تمام ملازمین کی روزانہ حاضری کے ریکارڈ دیکھیں اور منظم کریں۔"
+    },
+    "summary": {
+      "present": "حاضر",
+      "absent": "غیر حاضر",
+      "late": "دیر سے",
+      "halfDay": "نصف دن",
+      "onLeave": "چھٹی پر",
+      "attendanceRate": "حاضری کی شرح"
+    },
+    "status": {
+      "present": "حاضر",
+      "absent": "غیر حاضر",
+      "late": "دیر سے",
+      "halfDay": "نصف دن",
+      "leave": "چھٹی",
+      "excused": "معاف شدہ",
+      "holiday": "تعطیل"
+    },
+    "filters": {
+      "search": "تلاش کریں…",
+      "searchStudent": "طالب علم تلاش کریں…",
+      "searchTeacher": "استاد تلاش کریں…",
+      "searchEmployee": "ملازم تلاش کریں…",
+      "status": "حالت",
+      "allStatuses": "تمام حالات",
+      "date": "تاریخ",
+      "department": "شعبہ",
+      "allDepartments": "تمام شعبے",
+      "class": "جماعت",
+      "allClasses": "تمام جماعتیں",
+      "clear": "صاف کریں"
+    },
+    "table": {
+      "date": "تاریخ",
+      "student": "طالب علم",
+      "teacher": "استاد",
+      "employee": "ملازم",
+      "admissionNumber": "داخلہ نمبر",
+      "employeeCode": "کوڈ",
+      "class": "جماعت",
+      "section": "سیکشن",
+      "department": "شعبہ",
+      "designation": "عہدہ",
+      "status": "حالت",
+      "checkIn": "آمد کا وقت",
+      "checkOut": "روانگی کا وقت",
+      "actions": "اقدامات"
+    },
+    "notes": {
+      "title": "حاضری کے نوٹس",
+      "description": "{date} کو {name} کے لیے نوٹس شامل یا اپ ڈیٹ کریں۔",
+      "placeholder": "متعلقہ نوٹس شامل کریں…",
+      "submit": "جمع کریں",
+      "cancel": "منسوخ کریں"
+    },
+    "bulk": {
+      "selected": "{count} ریکارڈ منتخب",
+      "selectedPlural": "{count} ریکارڈ منتخب",
+      "setStatus": "حالت مقرر کریں…",
+      "apply": "لاگو کریں",
+      "deselect": "انتخاب ہٹائیں"
+    },
+    "views": {
+      "table": "جدول",
+      "calendar": "تقویم"
+    },
+    "empty": {
+      "title": "کوئی حاضری ریکارڈ نہیں",
+      "description": "موجودہ فلٹرز سے کوئی ریکارڈ مطابقت نہیں رکھتا۔"
+    }
+  },
+  "library": {
+    "title": "لائبریری",
+    "books": "کتابیں",
+    "issueReturn": "اجراء اور واپسی",
+    "members": "ارکان",
+    "addBook": "کتاب شامل کریں",
+    "editBook": "کتاب ترمیم کریں",
+    "issueBook": "کتاب جاری کریں",
+    "returnBook": "کتاب واپس کریں",
+    "addMember": "رکن شامل کریں",
+    "editMember": "رکن ترمیم کریں",
+    "memberDetail": "رکن کی تفصیل",
+    "borrowingHistory": "قرضے کی تاریخ",
+    "currentIssues": "ابھی جاری کتابیں",
+    "overview": "جائزہ",
+    "stats": {
+      "totalBooks": "کل کتابیں",
+      "availableCopies": "دستیاب نسخے",
+      "issuedCopies": "جاری نسخے",
+      "overdue": "تاخیر سے",
+      "totalIssued": "کل جاری",
+      "totalReturned": "کل واپس",
+      "totalOverdue": "کل تاخیر",
+      "activeMembers": "فعال ارکان",
+      "totalMembers": "کل ارکان"
+    },
+    "fields": {
+      "title": "عنوان",
+      "author": "مصنف",
+      "isbn": "آئی ایس بی این",
+      "publisher": "ناشر",
+      "category": "زمرہ",
+      "language": "زبان",
+      "edition": "ایڈیشن",
+      "totalCopies": "کل نسخے",
+      "availableCopies": "دستیاب نسخے",
+      "shelfLocation": "شیلف مقام",
+      "description": "تفصیل",
+      "status": "حیثیت",
+      "memberType": "رکن کی قسم",
+      "linkedEntityId": "منسلک ادارے کی شناخت",
+      "membershipNumber": "رکنیت نمبر",
+      "joinedDate": "شمولیت کی تاریخ",
+      "maxBooksAllowed": "زیادہ سے زیادہ کتابیں",
+      "notes": "نوٹس",
+      "bookId": "کتاب",
+      "memberId": "رکن",
+      "issueDate": "اجراء کی تاریخ",
+      "dueDate": "واجبی تاریخ",
+      "returnDate": "واپسی کی تاریخ",
+      "condition": "حالت",
+      "fineAmount": "جرمانے کی رقم"
+    },
+    "status": {
+      "active": "فعال",
+      "inactive": "غیر فعال",
+      "issued": "جاری",
+      "returned": "واپس",
+      "overdue": "تاخیر",
+      "lost": "گمشدہ",
+      "good": "اچھا",
+      "damaged": "خراب"
+    }
+  },
+  "communication": {
+    "title": "مواصلات",
+    "notices": "نوٹس بورڈ",
+    "events": "تقریبات",
+    "messages": "پیغامات",
+    "addNotice": "نوٹس شامل کریں",
+    "editNotice": "نوٹس ترمیم کریں",
+    "addEvent": "تقریب شامل کریں",
+    "editEvent": "تقریب ترمیم کریں",
+    "compose": "پیغام لکھیں",
+    "send": "بھیجیں",
+    "stats": {
+      "totalNotices": "کل نوٹسز",
+      "pinnedNotices": "پن کردہ",
+      "activeNotices": "فعال",
+      "expiredNotices": "میعاد ختم",
+      "totalEvents": "کل تقریبات",
+      "upcomingEvents": "آنے والی",
+      "ongoingEvents": "جاری",
+      "completedEvents": "مکمل",
+      "totalThreads": "کل گفتگو",
+      "unreadThreads": "غیر پڑھی گفتگو",
+      "unreadMessages": "غیر پڑھے پیغامات"
+    },
+    "priority": {
+      "low": "کم",
+      "medium": "درمیانہ",
+      "high": "زیادہ",
+      "urgent": "فوری"
+    },
+    "status": {
+      "draft": "مسودہ",
+      "published": "شائع",
+      "archived": "محفوظ",
+      "upcoming": "آنے والا",
+      "ongoing": "جاری",
+      "completed": "مکمل",
+      "cancelled": "منسوخ"
+    }
+  },
+  "notifications": {
+    "title": "اطلاعات",
+    "alerts": "الرٹس اور ترجیحات",
+    "markRead": "پڑھا ہوا نشان لگائیں",
+    "markAllRead": "سب پڑھا ہوا نشان لگائیں",
+    "dismiss": "رد کریں",
+    "savePreferences": "ترجیحات محفوظ کریں",
+    "stats": {
+      "total": "کل",
+      "unread": "غیر پڑھا",
+      "read": "پڑھا",
+      "systemAlerts": "سسٹم الرٹس"
+    },
+    "category": {
+      "fees": "فیسیں",
+      "attendance": "حاضری",
+      "exam": "امتحانات",
+      "leave": "چھٹی",
+      "notice": "نوٹس",
+      "message": "پیغام",
+      "system": "نظام"
+    },
+    "channel": {
+      "email": "ای میل",
+      "sms": "ایس ایم ایس",
+      "push": "پش نوٹیفکیشن",
+      "in_app": "ان-ایپ نوٹیفکیشن"
+    },
+    "audience": {
+      "admin": "منتظم",
+      "teacher": "استاد",
+      "student": "طالب علم",
+      "parent": "والدین"
+    }
+  },
+  "certificates": {
+    "pages": {
+      "main": {
+        "title": "سرٹیفکیٹس",
+        "description": "طلبہ کے لیے سرٹیفکیٹس بنائیں، پیش نظارہ کریں اور پرنٹ کریں۔"
+      }
+    },
+    "actions": {
+      "generate": "پیش نظارہ بنائیں",
+      "preview": "پیش نظارہ",
+      "print": "پرنٹ کریں",
+      "download": "PDF ڈاؤن لوڈ کریں",
+      "reset": "دوبارہ ترتیب دیں",
+      "load": "پیش نظارہ میں لوڈ کریں",
+      "delete": "حذف کریں",
+      "saveDraft": "مسودہ محفوظ کریں"
+    },
+    "fields": {
+      "template": "سرٹیفکیٹ ٹیمپلیٹ",
+      "student": "طالب علم",
+      "issueDate": "اجراء کی تاریخ",
+      "academicYear": "تعلیمی سال",
+      "class": "جماعت",
+      "title": "سرٹیفکیٹ کا عنوان",
+      "remarks": "ریمارکس",
+      "signerName": "دستخط کنندہ کا نام",
+      "signerDesignation": "دستخط کنندہ کا عہدہ",
+      "status": "حالت"
+    },
+    "templates": {
+      "bonafide": "بونافائیڈ سرٹیفکیٹ",
+      "transfer": "ٹرانسفر سرٹیفکیٹ",
+      "character": "کردار سرٹیفکیٹ",
+      "completion": "تکمیل سرٹیفکیٹ",
+      "attendance": "حاضری سرٹیفکیٹ",
+      "achievement": "کامیابی سرٹیفکیٹ",
+      "examResult": "امتحانی نتیجہ سرٹیفکیٹ"
+    },
+    "preview": {
+      "schoolName": "ایڈووانٹا اسکول",
+      "referenceNumber": "حوالہ نمبر",
+      "issueDate": "تاریخ",
+      "certifiesThat": "یہ تصدیق کی جاتی ہے کہ",
+      "studentName": "طالب علم کا نام",
+      "admissionNumber": "داخلہ نمبر",
+      "classSection": "جماعت",
+      "academicYear": "تعلیمی سال",
+      "signatory": "مجاز دستخط کنندہ",
+      "watermark": "ایڈووانٹا",
+      "noPreview": "کوئی پیش نظارہ نہیں بنایا گیا",
+      "selectStudentTemplate": "ٹیمپلیٹ اور طالب علم منتخب کریں پھر پیش نظارہ بنائیں پر کلک کریں۔"
+    },
+    "table": {
+      "certificateId": "سرٹیفکیٹ آئی ڈی",
+      "template": "ٹیمپلیٹ",
+      "student": "طالب علم",
+      "class": "جماعت",
+      "issueDate": "اجراء کی تاریخ",
+      "status": "حالت",
+      "actions": "اقدامات"
+    },
+    "status": {
+      "draft": "مسودہ",
+      "issued": "جاری کردہ",
+      "revoked": "منسوخ",
+      "expired": "میعاد ختم"
+    },
+    "summary": {
+      "total": "کل",
+      "issued": "جاری کردہ",
+      "draft": "مسودہ",
+      "thisMonth": "اس ماہ"
+    },
+    "messages": {
+      "generated": "سرٹیفکیٹ کا پیش نظارہ بنایا گیا۔",
+      "printStarted": "پرنٹ ڈائیلاگ کھل رہا ہے...",
+      "downloadMock": "PDF برآمد بیک اینڈ انضمام کے بعد دستیاب ہوگا۔",
+      "deleted": "سرٹیفکیٹ ریکارڈ حذف کیا گیا۔ (نمونہ)",
+      "notFound": "سرٹیفکیٹ نہیں ملا۔",
+      "noRecords": "کوئی سرٹیفکیٹ ریکارڈ نہیں ملا۔"
+    }
+  }
+}
