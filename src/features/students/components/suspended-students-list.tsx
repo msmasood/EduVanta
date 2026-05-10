@@ -86,7 +86,7 @@ export function SuspendedStudentsList({ rows }: SuspendedStudentsListProps) {
           <DropdownMenuContent align="end" className="w-36">
             <DropdownMenuItem
               onClick={() =>
-                router.push(`/${locale}/students/${row.original.id}`)
+                router.push(`/students/${row.original.id}`)
               }
             >
               <Eye className="me-2 size-4 text-muted-foreground" aria-hidden />

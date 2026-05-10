@@ -83,7 +83,7 @@ export function GuardianForm({
     await new Promise((r) => setTimeout(r, 400));
     if (mode === "create") {
       toast.success("Guardian created successfully.");
-      router.push(`/${locale}/guardians`);
+      router.push("/guardians");
     } else {
       toast.success("Guardian updated successfully.");
     }
@@ -93,7 +93,7 @@ export function GuardianForm({
     if (mode === "edit") {
       router.back();
     } else {
-      router.push(`/${locale}/guardians`);
+      router.push("/guardians");
     }
   };
 

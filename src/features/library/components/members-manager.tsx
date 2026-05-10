@@ -48,7 +48,7 @@ export function MembersManager() {
   const stats = React.useMemo(() => computeMemberStats(membersRaw), [membersRaw]);
 
   const handleView = (row: MemberRow) => {
-    router.push(`/${locale}/library/members/${row.id}`);
+    router.push(`/library/members/${row.id}`);
   };
 
   const handleEdit = (row: MemberRow) => {

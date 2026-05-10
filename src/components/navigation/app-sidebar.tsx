@@ -1,12 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import { ChevronsLeft } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 import { APP_NAME } from "@/lib/constants";
 import { navigationGroups } from "@/lib/navigation";
 import { SidebarNavGroup } from "./sidebar-nav-group";
-import { ScrollArea } from "@/components/ui/scroll-area";
+
 
 interface AppSidebarProps {
   collapsed: boolean;
@@ -36,16 +37,22 @@ export function AppSidebar({
         )}
       >
         {collapsed ? (
-          <span
-            className="text-lg font-black text-sidebar-primary"
+          <Image
+            src="/brand/eduvanta-logo-square.svg"
+            alt={APP_NAME}
+            width={36}
+            height={36}
+            className="size-9 object-contain"
             aria-label={APP_NAME}
-          >
-            E
-          </span>
+          />
         ) : (
-          <span className="text-lg font-black tracking-tight text-sidebar-primary">
-            {APP_NAME}
-          </span>
+          <Image
+            src="/brand/eduvanta-logo-horizontal.svg"
+            alt={APP_NAME}
+            width={140}
+            height={36}
+            className="h-8 w-auto"
+          />
         )}
 
         {/* Collapse toggle — desktop only */}
@@ -71,7 +78,7 @@ export function AppSidebar({
       </div>
 
       {/* ── Navigation ── */}
-      <ScrollArea className="flex-1">
+      <div className="flex-1 min-h-0 overflow-y-auto">
         <nav
           aria-label="Sidebar navigation"
           className={cn("py-3", collapsed ? "px-1" : "px-2")}
@@ -87,7 +94,7 @@ export function AppSidebar({
             ))}
           </div>
         </nav>
-      </ScrollArea>
+      </div>
 
       {/* ── Footer / school context ── */}
       <div

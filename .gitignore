@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# test artifacts
+/playwright-report/
+/test-results/
+
+# downloaded templates (reference only, not for source control)
+/Startix/
+
+# misc scratch files
+typecheck-phase23.txt

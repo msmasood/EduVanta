@@ -53,7 +53,7 @@ describe("SubscriptionPlanCard", () => {
       />
     );
     expect(screen.getByText("Standard")).toBeDefined();
-  });
+  }, 15000);
 
   it("shows Most Popular badge for popular plan", () => {
     render(

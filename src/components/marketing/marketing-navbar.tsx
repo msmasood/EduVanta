@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
@@ -32,12 +33,17 @@ export function MarketingNavbar() {
         <Link
           href="/"
           locale={locale}
-          className="flex items-center gap-2 font-bold text-xl text-primary"
+          className="flex items-center gap-2"
+          aria-label={APP_NAME}
         >
-          <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground text-sm font-bold">
-            E
-          </span>
-          {APP_NAME}
+          <Image
+            src="/brand/eduvanta-logo-horizontal.svg"
+            alt={APP_NAME}
+            width={160}
+            height={40}
+            className="h-8 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}

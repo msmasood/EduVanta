@@ -90,13 +90,13 @@ export function StudentForm({
     await new Promise((r) => setTimeout(r, 400));
     if (mode === "create") {
       toast.success("Student created successfully.");
-      router.push(`/${locale}/students`);
+      router.push("/students");
     } else {
       toast.success("Student updated successfully.");
     }
   };
 
-  const onCancel = () => router.push(`/${locale}/students`);
+  const onCancel = () => router.push("/students");
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} noValidate>

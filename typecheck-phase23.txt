@@ -1,4 +1,0 @@
-
-> eduvanta@0.1.0 typecheck C:\Users\Yoga\Documents\Projects\EduVanta\eduvanta
-> tsc --noEmit
-

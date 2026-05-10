@@ -84,7 +84,7 @@ export function EmployeeForm({ employee, departments, designations, mode }: Prop
     toast.success(
       mode === "create" ? "Employee created successfully." : "Employee updated successfully."
     );
-    router.push(`/${locale}/employees`);
+    router.push("/employees");
   };
 
   return (
@@ -161,7 +161,7 @@ export function EmployeeForm({ employee, departments, designations, mode }: Prop
       <FormActions
         isLoading={isLoading}
         showCancel
-        onCancel={() => router.push(`/${locale}/employees`)}
+        onCancel={() => router.push("/employees")}
         submitLabel={mode === "create" ? "Add Employee" : "Save Changes"}
       />
     </form>

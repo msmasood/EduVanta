@@ -40,9 +40,9 @@ export const navigationGroups: NavigationGroup[] = [
     items: [
       { id: "students-list", labelKey: "navigation.students", href: ROUTES.STUDENTS, icon: "Users" },
       { id: "students-new", labelKey: "common.addNew", href: ROUTES.STUDENTS_NEW, icon: "UserPlus" },
-      { id: "students-attendance", labelKey: "dashboard.attendance", href: ROUTES.STUDENTS_ATTENDANCE, icon: "ClipboardCheck" },
-      { id: "students-categories", labelKey: "navigation.academic", href: ROUTES.STUDENTS_CATEGORIES, icon: "Tag" },
-      { id: "students-suspended", labelKey: "navigation.students", href: ROUTES.STUDENTS_SUSPENDED, icon: "UserX" },
+      { id: "students-attendance", labelKey: "navigation.attendance", href: ROUTES.STUDENTS_ATTENDANCE, icon: "ClipboardCheck" },
+      { id: "students-categories", labelKey: "navigation.categories", href: ROUTES.STUDENTS_CATEGORIES, icon: "Tag" },
+      { id: "students-suspended", labelKey: "navigation.suspended", href: ROUTES.STUDENTS_SUSPENDED, icon: "UserX" },
     ],
   },
   {
@@ -51,8 +51,8 @@ export const navigationGroups: NavigationGroup[] = [
     items: [
       { id: "teachers-list", labelKey: "navigation.teachers", href: ROUTES.TEACHERS, icon: "Users" },
       { id: "teachers-new", labelKey: "common.addNew", href: ROUTES.TEACHERS_NEW, icon: "UserPlus" },
-      { id: "teachers-attendance", labelKey: "dashboard.attendance", href: ROUTES.TEACHERS_ATTENDANCE, icon: "ClipboardCheck" },
-      { id: "teachers-timetable", labelKey: "navigation.academic", href: ROUTES.TEACHERS_TIMETABLE, icon: "Calendar" },
+      { id: "teachers-attendance", labelKey: "navigation.attendance", href: ROUTES.TEACHERS_ATTENDANCE, icon: "ClipboardCheck" },
+      { id: "teachers-timetable", labelKey: "navigation.timetable", href: ROUTES.TEACHERS_TIMETABLE, icon: "Calendar" },
     ],
   },
   {
@@ -69,28 +69,28 @@ export const navigationGroups: NavigationGroup[] = [
     items: [
       { id: "employees-list", labelKey: "navigation.employees", href: ROUTES.EMPLOYEES, icon: "Briefcase" },
       { id: "employees-new", labelKey: "common.addNew", href: ROUTES.EMPLOYEES_NEW, icon: "UserPlus" },
-      { id: "employees-attendance", labelKey: "dashboard.attendance", href: ROUTES.EMPLOYEES_ATTENDANCE, icon: "ClipboardCheck" },
-      { id: "employees-leave-requests", labelKey: "navigation.hrm", href: ROUTES.EMPLOYEES_LEAVE_REQUESTS, icon: "CalendarOff" },
-      { id: "employees-leave-types", labelKey: "navigation.hrm", href: ROUTES.EMPLOYEES_LEAVE_TYPES, icon: "ListFilter" },
+      { id: "employees-attendance", labelKey: "navigation.attendance", href: ROUTES.EMPLOYEES_ATTENDANCE, icon: "ClipboardCheck" },
+      { id: "employees-leave-requests", labelKey: "navigation.leaveRequests", href: ROUTES.EMPLOYEES_LEAVE_REQUESTS, icon: "CalendarOff" },
+      { id: "employees-leave-types", labelKey: "navigation.leaveTypes", href: ROUTES.EMPLOYEES_LEAVE_TYPES, icon: "ListFilter" },
     ],
   },
   {
     id: "hrm",
     labelKey: "navigation.hrm",
     items: [
-      { id: "hrm-payroll", labelKey: "navigation.hrm", href: ROUTES.HRM_PAYROLL, icon: "Banknote" },
-      { id: "hrm-departments", labelKey: "navigation.hrm", href: ROUTES.HRM_DEPARTMENTS, icon: "Building" },
-      { id: "hrm-designations", labelKey: "navigation.hrm", href: ROUTES.HRM_DESIGNATIONS, icon: "Award" },
+      { id: "hrm-payroll", labelKey: "navigation.payroll", href: ROUTES.HRM_PAYROLL, icon: "Banknote" },
+      { id: "hrm-departments", labelKey: "navigation.departments", href: ROUTES.HRM_DEPARTMENTS, icon: "Building" },
+      { id: "hrm-designations", labelKey: "navigation.designations", href: ROUTES.HRM_DESIGNATIONS, icon: "Award" },
     ],
   },
   {
     id: "academic",
     labelKey: "navigation.academic",
     items: [
-      { id: "academic-classes", labelKey: "navigation.academic", href: ROUTES.ACADEMIC_CLASSES, icon: "BookMarked" },
-      { id: "academic-classrooms", labelKey: "navigation.academic", href: ROUTES.ACADEMIC_CLASSROOMS, icon: "DoorOpen" },
-      { id: "academic-sections", labelKey: "navigation.academic", href: ROUTES.ACADEMIC_SECTIONS, icon: "Layers" },
-      { id: "academic-subjects", labelKey: "navigation.academic", href: ROUTES.ACADEMIC_SUBJECTS, icon: "BookOpen" },
+      { id: "academic-classes", labelKey: "navigation.classes", href: ROUTES.ACADEMIC_CLASSES, icon: "BookMarked" },
+      { id: "academic-classrooms", labelKey: "navigation.classrooms", href: ROUTES.ACADEMIC_CLASSROOMS, icon: "DoorOpen" },
+      { id: "academic-sections", labelKey: "navigation.sections", href: ROUTES.ACADEMIC_SECTIONS, icon: "Layers" },
+      { id: "academic-subjects", labelKey: "navigation.subjects", href: ROUTES.ACADEMIC_SUBJECTS, icon: "BookOpen" },
     ],
   },
   {
@@ -98,47 +98,47 @@ export const navigationGroups: NavigationGroup[] = [
     labelKey: "navigation.exams",
     items: [
       { id: "exams-list", labelKey: "navigation.exams", href: ROUTES.EXAMS, icon: "FileText" },
-      { id: "exams-schedule", labelKey: "navigation.exams", href: ROUTES.EXAMS_SCHEDULE, icon: "CalendarDays" },
-      { id: "exams-results", labelKey: "navigation.exams", href: ROUTES.EXAMS_RESULTS, icon: "BarChart3" },
+      { id: "exams-schedule", labelKey: "navigation.schedule", href: ROUTES.EXAMS_SCHEDULE, icon: "CalendarDays" },
+      { id: "exams-results", labelKey: "navigation.results", href: ROUTES.EXAMS_RESULTS, icon: "BarChart3" },
     ],
   },
   {
     id: "fees",
     labelKey: "navigation.fees",
     items: [
-      { id: "fees-collect", labelKey: "navigation.fees", href: ROUTES.FEES_COLLECT, icon: "CreditCard" },
-      { id: "fees-groups", labelKey: "navigation.fees", href: ROUTES.FEES_GROUPS, icon: "FolderOpen" },
-      { id: "fees-types", labelKey: "navigation.fees", href: ROUTES.FEES_TYPES, icon: "ListOrdered" },
-      { id: "fees-discounts", labelKey: "navigation.fees", href: ROUTES.FEES_DISCOUNTS, icon: "Percent" },
+      { id: "fees-collect", labelKey: "navigation.collectFees", href: ROUTES.FEES_COLLECT, icon: "CreditCard" },
+      { id: "fees-groups", labelKey: "navigation.feeGroups", href: ROUTES.FEES_GROUPS, icon: "FolderOpen" },
+      { id: "fees-types", labelKey: "navigation.feeTypes", href: ROUTES.FEES_TYPES, icon: "ListOrdered" },
+      { id: "fees-discounts", labelKey: "navigation.discounts", href: ROUTES.FEES_DISCOUNTS, icon: "Percent" },
     ],
   },
   {
     id: "finance",
     labelKey: "navigation.finance",
     items: [
-      { id: "finance-income-heads", labelKey: "navigation.finance", href: ROUTES.FINANCE_INCOME_HEADS, icon: "TrendingUp" },
-      { id: "finance-income", labelKey: "navigation.finance", href: ROUTES.FINANCE_INCOME, icon: "ArrowUpCircle" },
-      { id: "finance-expense-heads", labelKey: "navigation.finance", href: ROUTES.FINANCE_EXPENSE_HEADS, icon: "TrendingDown" },
-      { id: "finance-expenses", labelKey: "navigation.finance", href: ROUTES.FINANCE_EXPENSES, icon: "ArrowDownCircle" },
-      { id: "finance-transactions", labelKey: "navigation.finance", href: ROUTES.FINANCE_TRANSACTIONS, icon: "ArrowLeftRight" },
+      { id: "finance-income-heads", labelKey: "navigation.incomeHeads", href: ROUTES.FINANCE_INCOME_HEADS, icon: "TrendingUp" },
+      { id: "finance-income", labelKey: "navigation.income", href: ROUTES.FINANCE_INCOME, icon: "ArrowUpCircle" },
+      { id: "finance-expense-heads", labelKey: "navigation.expenseHeads", href: ROUTES.FINANCE_EXPENSE_HEADS, icon: "TrendingDown" },
+      { id: "finance-expenses", labelKey: "navigation.expenses", href: ROUTES.FINANCE_EXPENSES, icon: "ArrowDownCircle" },
+      { id: "finance-transactions", labelKey: "navigation.transactions", href: ROUTES.FINANCE_TRANSACTIONS, icon: "ArrowLeftRight" },
     ],
   },
   {
     id: "library",
     labelKey: "navigation.library",
     items: [
-      { id: "library-books", labelKey: "navigation.library", href: ROUTES.LIBRARY_BOOKS, icon: "Library" },
-      { id: "library-issue-return", labelKey: "navigation.library", href: ROUTES.LIBRARY_ISSUE_RETURN, icon: "RefreshCw" },
-      { id: "library-members", labelKey: "navigation.library", href: ROUTES.LIBRARY_MEMBERS, icon: "Users" },
+      { id: "library-books", labelKey: "navigation.books", href: ROUTES.LIBRARY_BOOKS, icon: "Library" },
+      { id: "library-issue-return", labelKey: "navigation.issueReturn", href: ROUTES.LIBRARY_ISSUE_RETURN, icon: "RefreshCw" },
+      { id: "library-members", labelKey: "navigation.members", href: ROUTES.LIBRARY_MEMBERS, icon: "Users" },
     ],
   },
   {
     id: "communication",
     labelKey: "navigation.communication",
     items: [
-      { id: "communication-notices", labelKey: "navigation.communication", href: ROUTES.COMMUNICATION_NOTICES, icon: "Bell" },
-      { id: "communication-events", labelKey: "navigation.communication", href: ROUTES.COMMUNICATION_EVENTS, icon: "CalendarDays" },
-      { id: "communication-messages", labelKey: "navigation.communication", href: ROUTES.COMMUNICATION_MESSAGES, icon: "MessageSquare" },
+      { id: "communication-notices", labelKey: "navigation.notices", href: ROUTES.COMMUNICATION_NOTICES, icon: "Bell" },
+      { id: "communication-events", labelKey: "navigation.events", href: ROUTES.COMMUNICATION_EVENTS, icon: "CalendarDays" },
+      { id: "communication-messages", labelKey: "navigation.messages", href: ROUTES.COMMUNICATION_MESSAGES, icon: "MessageSquare" },
     ],
   },
   {
@@ -146,7 +146,7 @@ export const navigationGroups: NavigationGroup[] = [
     labelKey: "navigation.notifications",
     items: [
       { id: "notifications-list", labelKey: "navigation.notifications", href: ROUTES.NOTIFICATIONS, icon: "Bell" },
-      { id: "notifications-alerts", labelKey: "navigation.notifications", href: ROUTES.NOTIFICATIONS_ALERTS, icon: "AlertCircle" },
+      { id: "notifications-alerts", labelKey: "navigation.alerts", href: ROUTES.NOTIFICATIONS_ALERTS, icon: "AlertCircle" },
     ],
   },
   {

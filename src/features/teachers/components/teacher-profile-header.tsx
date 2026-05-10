@@ -69,7 +69,7 @@ export function TeacherProfileHeader({
         variant="outline"
         size="sm"
         onClick={() =>
-          router.push(`/${locale}/teachers/${teacher.id}/edit`)
+          router.push(`/teachers/${teacher.id}/edit`)
         }
       >
         <Pencil className="me-1.5 size-4" aria-hidden />

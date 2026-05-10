@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { APP_NAME } from "@/lib/constants";
@@ -36,12 +37,16 @@ export function MarketingFooter() {
             <Link
               href="/"
               locale={locale}
-              className="flex items-center gap-2 font-bold text-lg text-primary"
+              className="flex items-center gap-2"
+              aria-label={APP_NAME}
             >
-              <span className="flex size-7 items-center justify-center rounded-md bg-primary text-primary-foreground text-xs font-bold">
-                E
-              </span>
-              {APP_NAME}
+              <Image
+                src="/brand/eduvanta-logo-horizontal.svg"
+                alt={APP_NAME}
+                width={140}
+                height={36}
+                className="h-7 w-auto"
+              />
             </Link>
             <p className="mt-3 text-sm text-muted-foreground max-w-xs">
               {t("description")}

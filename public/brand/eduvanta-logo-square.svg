@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-label="EduVanta">
+  <!-- Icon: stylized laptop with book/education theme (centered, larger) -->
+  <g transform="translate(20, 10)">
+    <!-- Laptop base -->
+    <rect x="2" y="50" width="76" height="9" rx="3" fill="#2DC08E"/>
+    <!-- Laptop screen frame -->
+    <rect x="8" y="8" width="64" height="46" rx="4" fill="#2DC08E"/>
+    <!-- Screen inner -->
+    <rect x="12" y="12" width="56" height="38" rx="2" fill="white" opacity="0.95"/>
+    <!-- Book lines inside screen -->
+    <rect x="20" y="24" width="40" height="6" rx="2" fill="#2DC08E"/>
+    <rect x="20" y="34" width="30" height="6" rx="2" fill="#5B62CF" opacity="0.8"/>
+  </g>
+  <!-- Text: Edu (green) -->
+  <text x="22" y="104" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#2DC08E" letter-spacing="-0.5">Edu</text>
+  <!-- Text: Vanta (blue-purple) -->
+  <text x="60" y="104" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#5B62CF" letter-spacing="-0.5">Vanta</text>
+</svg>

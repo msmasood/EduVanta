@@ -1,0 +1,119 @@
+/**
+ * startix-rtl.scss
+ *
+ * RTL overrides for Startix marketing pages rendered in Arabic/Urdu.
+ * Applied when dir="rtl" is set on <html> by EduVanta's inline script.
+ * Imported alongside startix-landing.scss in (marketing)/layout.tsx.
+ */
+
+[dir="rtl"] .startix-root {
+  // Text alignment
+  .section-heading,
+  .hero-content,
+  .about-content,
+  .featured-content {
+    text-align: right;
+  }
+
+  // Flex direction fixes
+  .d-flex {
+    &.align-items-center {
+      &.gap-2,
+      &.gap-3,
+      &.gap-4 {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+
+  // Header nav direction
+  .header-navigation {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+
+  // Footer nav
+  .footer-nav {
+    text-align: right;
+  }
+
+  // About list
+  .about-list li {
+    flex-direction: row-reverse;
+    gap: 12px;
+  }
+
+  // Featured list
+  .featured-list li {
+    flex-direction: row-reverse;
+    gap: 12px;
+  }
+
+  // Accordion
+  .accordion-button::after {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  // Swiper RTL
+  .swiper {
+    direction: rtl;
+  }
+
+  // Icons from Tabler
+  .ti-arrow-right::before {
+    content: '\ea64'; // ti-arrow-left
+  }
+
+  // Pricing card content
+  .pricing-content li {
+    text-align: right;
+  }
+
+  // Nav brand on right side on mobile
+  .navbar-brand {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  // Social nav
+  .social-nav {
+    direction: ltr; // keep icons in natural order
+  }
+
+  // Footer card
+  .footer-card {
+    text-align: right;
+  }
+
+  // Contact form
+  .contact-form .form-group {
+    text-align: right;
+  }
+
+  // Hero img group
+  .img-group-wrap {
+    flex-direction: row-reverse;
+  }
+
+  // ms-auto / ms-3 overrides in RTL
+  .ms-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+
+  .ms-3 {
+    margin-left: 0 !important;
+    margin-right: 1rem !important;
+  }
+
+  .me-xl-4 {
+    margin-right: 0 !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .pe-xxl-5 {
+    padding-right: 0 !important;
+    padding-left: 3rem !important;
+  }
+}

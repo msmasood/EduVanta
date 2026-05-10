@@ -1,0 +1,125 @@
+/**
+ * startix-dark.scss
+ *
+ * Dark mode overrides for Startix marketing pages.
+ * Uses EduVanta's class-based dark mode (next-themes adds class="dark" to <html>).
+ * Imported alongside startix-landing.scss in (marketing)/layout.tsx.
+ *
+ * NEVER use Startix's ThemeProvider — EduVanta uses next-themes class approach.
+ */
+
+.dark .startix-root {
+  --Primary: #2dc5b8;                         // Brighter EduVanta teal for dark backgrounds
+  --Secondary: #1a1d2e;                        // Dark secondary background
+  --SecondaryTwo: rgba(45, 197, 184, 0.15);   // Teal tint for dark
+  --Heading: #f0f6f6;
+  --Text: #9ab0b0;
+  --Border: rgba(255, 255, 255, 0.12);
+  --Background: #0f1117;
+  --White: #1a1d2e;
+
+  background-color: #0f1117;
+  color: #9ab0b0;
+
+  // Header dark mode
+  .header-section {
+    background-color: #0f1117 !important;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+
+    .header-top {
+      background-color: #0a0d14 !important;
+    }
+
+    .navbar {
+      background-color: #0f1117 !important;
+    }
+
+    .nav-link {
+      color: var(--Heading) !important;
+    }
+
+    .btn-primary {
+      background-color: var(--Primary) !important;
+      border-color: var(--Primary) !important;
+    }
+  }
+
+  // Hero dark
+  .hero-section {
+    background-color: #0f1117;
+    color: var(--Heading);
+  }
+
+  // Sections with bg-secondary
+  .bg-secondary {
+    background-color: var(--Secondary) !important;
+  }
+
+  // Cards dark mode
+  .service-card,
+  .pricing-card,
+  .testimonial-card-four,
+  .integration-card,
+  .feature-card {
+    background-color: #1a1d2e !important;
+    border-color: var(--Border) !important;
+    color: var(--Heading);
+  }
+
+  // Accordion dark mode
+  .accordion-item {
+    background-color: #1a1d2e !important;
+    border-color: var(--Border) !important;
+  }
+
+  .accordion-button {
+    background-color: #1a1d2e !important;
+    color: var(--Heading) !important;
+
+    &:not(.collapsed) {
+      background-color: rgba(45, 197, 184, 0.1) !important;
+      color: var(--Primary) !important;
+    }
+  }
+
+  .accordion-body {
+    background-color: #1a1d2e !important;
+    color: var(--Text) !important;
+  }
+
+  // Footer dark
+  .footer-section {
+    background-color: #0a0d14 !important;
+    color: var(--Text);
+
+    a {
+      color: var(--Text);
+      &:hover { color: var(--Primary); }
+    }
+  }
+
+  // Form inputs
+  .form-control {
+    background-color: #1a1d2e !important;
+    border-color: var(--Border) !important;
+    color: var(--Heading) !important;
+
+    &::placeholder { color: rgba(154, 176, 176, 0.6); }
+  }
+
+  // Section headings
+  .section-heading h2,
+  .section-heading h3 {
+    color: var(--Heading);
+  }
+
+  .subtitle {
+    color: var(--Primary) !important;
+  }
+
+  // Dividers
+  .divider,
+  .divider-sm {
+    border-color: var(--Border) !important;
+  }
+}

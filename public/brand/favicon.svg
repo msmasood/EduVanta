@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" role="img" aria-label="EduVanta">
+  <!-- Laptop base -->
+  <rect x="2" y="21" width="28" height="4" rx="1.5" fill="#2DC08E"/>
+  <!-- Laptop screen frame -->
+  <rect x="4" y="5" width="24" height="18" rx="2" fill="#2DC08E"/>
+  <!-- Screen inner -->
+  <rect x="6" y="7" width="20" height="14" rx="1" fill="white" opacity="0.95"/>
+  <!-- Book lines inside screen -->
+  <rect x="9" y="11" width="14" height="2.5" rx="1" fill="#2DC08E"/>
+  <rect x="9" y="15" width="10" height="2.5" rx="1" fill="#5B62CF" opacity="0.8"/>
+</svg>

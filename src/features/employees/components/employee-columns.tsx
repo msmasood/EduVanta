@@ -41,11 +41,11 @@ function EmployeeRowActions({
         <MoreHorizontal className="size-4" aria-hidden />
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-44">
-        <DropdownMenuItem onClick={() => router.push(`/${locale}/employees/${row.id}`)}>
+        <DropdownMenuItem onClick={() => router.push(`/employees/${row.id}`)}>        
           <Eye className="me-2 size-4 text-muted-foreground" aria-hidden />
           View
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => router.push(`/${locale}/employees/${row.id}/edit`)}>
+        <DropdownMenuItem onClick={() => router.push(`/employees/${row.id}/edit`)}>        
           <Pencil className="me-2 size-4 text-muted-foreground" aria-hidden />
           Edit
         </DropdownMenuItem>

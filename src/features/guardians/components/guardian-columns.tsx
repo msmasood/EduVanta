@@ -41,11 +41,11 @@ function GuardianRowActions({
         <MoreHorizontal className="size-4" aria-hidden />
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-40">
-        <DropdownMenuItem onClick={() => router.push(`/${locale}/guardians/${row.id}`)}>
+        <DropdownMenuItem onClick={() => router.push(`/guardians/${row.id}`)}>        
           <Eye className="me-2 size-4 text-muted-foreground" aria-hidden />
           View
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => router.push(`/${locale}/guardians/${row.id}/edit`)}>
+        <DropdownMenuItem onClick={() => router.push(`/guardians/${row.id}/edit`)}>        
           <Pencil className="me-2 size-4 text-muted-foreground" aria-hidden />
           Edit
         </DropdownMenuItem>

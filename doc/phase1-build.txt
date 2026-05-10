@@ -1,0 +1,105 @@
+
+> eduvanta@0.1.0 build C:\Users\Yoga\Documents\Projects\EduVanta
+> next build
+
+Γû▓ Next.js 16.2.4 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 44s
+  Running TypeScript ...
+  Finished TypeScript in 32.9s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/4) ...
+  Generating static pages using 3 workers (1/4) 
+  Generating static pages using 3 workers (2/4) 
+  Generating static pages using 3 workers (3/4) 
+Γ£ô Generating static pages using 3 workers (4/4) in 324ms
+  Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ ╞Æ /[locale]
+Γö£ ╞Æ /[locale]/about
+Γö£ ╞Æ /[locale]/academic/classes
+Γö£ ╞Æ /[locale]/academic/classrooms
+Γö£ ╞Æ /[locale]/academic/sections
+Γö£ ╞Æ /[locale]/academic/subjects
+Γö£ ╞Æ /[locale]/blog
+Γö£ ╞Æ /[locale]/certificates
+Γö£ ╞Æ /[locale]/communication/events
+Γö£ ╞Æ /[locale]/communication/messages
+Γö£ ╞Æ /[locale]/communication/notices
+Γö£ ╞Æ /[locale]/contact
+Γö£ ╞Æ /[locale]/dashboard
+Γö£ ╞Æ /[locale]/dashboard/lms
+Γö£ ╞Æ /[locale]/dashboard/parent
+Γö£ ╞Æ /[locale]/dashboard/student
+Γö£ ╞Æ /[locale]/dashboard/teacher
+Γö£ ╞Æ /[locale]/dashboard/university
+Γö£ ╞Æ /[locale]/dev/infrastructure
+Γö£ ╞Æ /[locale]/employees
+Γö£ ╞Æ /[locale]/employees/[id]
+Γö£ ╞Æ /[locale]/employees/[id]/edit
+Γö£ ╞Æ /[locale]/employees/attendance
+Γö£ ╞Æ /[locale]/employees/leave-requests
+Γö£ ╞Æ /[locale]/employees/leave-types
+Γö£ ╞Æ /[locale]/employees/new
+Γö£ ╞Æ /[locale]/exams
+Γö£ ╞Æ /[locale]/exams/results
+Γö£ ╞Æ /[locale]/exams/schedule
+Γö£ ╞Æ /[locale]/faq
+Γö£ ╞Æ /[locale]/fees/collect
+Γö£ ╞Æ /[locale]/fees/discounts
+Γö£ ╞Æ /[locale]/fees/groups
+Γö£ ╞Æ /[locale]/fees/types
+Γö£ ╞Æ /[locale]/finance/expense-heads
+Γö£ ╞Æ /[locale]/finance/expenses
+Γö£ ╞Æ /[locale]/finance/income
+Γö£ ╞Æ /[locale]/finance/income-heads
+Γö£ ╞Æ /[locale]/finance/transactions
+Γö£ ╞Æ /[locale]/forgot-password
+Γö£ ╞Æ /[locale]/guardians
+Γö£ ╞Æ /[locale]/guardians/[id]
+Γö£ ╞Æ /[locale]/guardians/[id]/edit
+Γö£ ╞Æ /[locale]/guardians/new
+Γö£ ╞Æ /[locale]/hrm/departments
+Γö£ ╞Æ /[locale]/hrm/designations
+Γö£ ╞Æ /[locale]/hrm/payroll
+Γö£ ╞Æ /[locale]/library/books
+Γö£ ╞Æ /[locale]/library/issue-return
+Γö£ ╞Æ /[locale]/library/members
+Γö£ ╞Æ /[locale]/library/members/[id]
+Γö£ ╞Æ /[locale]/login
+Γö£ ╞Æ /[locale]/notifications
+Γö£ ╞Æ /[locale]/notifications/alerts
+Γö£ ╞Æ /[locale]/pricing
+Γö£ ╞Æ /[locale]/register
+Γö£ ╞Æ /[locale]/reset-password
+Γö£ ╞Æ /[locale]/services
+Γö£ ╞Æ /[locale]/settings/assign-roles
+Γö£ ╞Æ /[locale]/settings/currencies
+Γö£ ╞Æ /[locale]/settings/general
+Γö£ ╞Æ /[locale]/settings/languages
+Γö£ ╞Æ /[locale]/settings/roles
+Γö£ ╞Æ /[locale]/settings/subscription
+Γö£ ╞Æ /[locale]/students
+Γö£ ╞Æ /[locale]/students/[id]
+Γö£ ╞Æ /[locale]/students/[id]/edit
+Γö£ ╞Æ /[locale]/students/attendance
+Γö£ ╞Æ /[locale]/students/categories
+Γö£ ╞Æ /[locale]/students/new
+Γö£ ╞Æ /[locale]/students/suspended
+Γö£ ╞Æ /[locale]/teachers
+Γö£ ╞Æ /[locale]/teachers/[id]
+Γö£ ╞Æ /[locale]/teachers/[id]/edit
+Γö£ ╞Æ /[locale]/teachers/attendance
+Γö£ ╞Æ /[locale]/teachers/new
+Γöö ╞Æ /[locale]/teachers/timetable
+
+
+╞Æ Proxy (Middleware)
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+

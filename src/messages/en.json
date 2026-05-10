@@ -60,7 +60,38 @@
     "communication": "Communication",
     "notifications": "Notifications",
     "certificates": "Certificates",
-    "settings": "Settings"
+    "settings": "Settings",
+    "attendance": "Attendance",
+    "categories": "Categories",
+    "suspended": "Suspended",
+    "timetable": "Timetable",
+    "leaveRequests": "Leave Requests",
+    "leaveTypes": "Leave Types",
+    "payroll": "Payroll",
+    "departments": "Departments",
+    "designations": "Designations",
+    "classes": "Classes",
+    "classrooms": "Classrooms",
+    "sections": "Sections",
+    "subjects": "Subjects",
+    "schedule": "Schedule",
+    "results": "Results",
+    "collectFees": "Collect Fees",
+    "feeGroups": "Fee Groups",
+    "feeTypes": "Fee Types",
+    "discounts": "Discounts",
+    "incomeHeads": "Income Heads",
+    "income": "Income",
+    "expenseHeads": "Expense Heads",
+    "expenses": "Expenses",
+    "transactions": "Transactions",
+    "books": "Books",
+    "issueReturn": "Issue & Return",
+    "members": "Members",
+    "notices": "Notices",
+    "events": "Events",
+    "messages": "Messages",
+    "alerts": "Alerts"
   },
   "marketing": {
     "heroTitle": "Manage Your School with Confidence",
@@ -115,12 +146,30 @@
       "title": "A Dashboard for Every Role",
       "subtitle": "Each persona gets a focused view with only the information and tools they need.",
       "items": {
-        "admin": { "name": "Admin / Principal", "desc": "Full access to all modules, reports, roles, and settings." },
-        "teacher": { "name": "Teacher", "desc": "Classes, timetable, attendance, exam scheduling, and messages." },
-        "student": { "name": "Student", "desc": "Fees, attendance, exam results, notices, and library access." },
-        "parent": { "name": "Parent / Guardian", "desc": "Child progress, fee status, attendance, and school notices." },
-        "accountant": { "name": "Accountant", "desc": "Fees, income, expenses, payroll, and transaction reports." },
-        "librarian": { "name": "Librarian", "desc": "Book catalogue, issue/return tracking, and member management." }
+        "admin": {
+          "name": "Admin / Principal",
+          "desc": "Full access to all modules, reports, roles, and settings."
+        },
+        "teacher": {
+          "name": "Teacher",
+          "desc": "Classes, timetable, attendance, exam scheduling, and messages."
+        },
+        "student": {
+          "name": "Student",
+          "desc": "Fees, attendance, exam results, notices, and library access."
+        },
+        "parent": {
+          "name": "Parent / Guardian",
+          "desc": "Child progress, fee status, attendance, and school notices."
+        },
+        "accountant": {
+          "name": "Accountant",
+          "desc": "Fees, income, expenses, payroll, and transaction reports."
+        },
+        "librarian": {
+          "name": "Librarian",
+          "desc": "Book catalogue, issue/return tracking, and member management."
+        }
       }
     },
     "dashboardPreview": {
@@ -189,19 +238,37 @@
           "name": "Starter",
           "desc": "Perfect for a single school or small academy.",
           "priceMonthly": 49,
-          "features": ["Up to 500 students", "Core modules", "3 admin accounts", "Email support"]
+          "features": [
+            "Up to 500 students",
+            "Core modules",
+            "3 admin accounts",
+            "Email support"
+          ]
         },
         "growth": {
           "name": "Growth",
           "desc": "Ideal for growing institutions with advanced needs.",
           "priceMonthly": 129,
-          "features": ["Up to 2,000 students", "All modules", "10 admin accounts", "Priority support", "Multi-currency"]
+          "features": [
+            "Up to 2,000 students",
+            "All modules",
+            "10 admin accounts",
+            "Priority support",
+            "Multi-currency"
+          ]
         },
         "institution": {
           "name": "Institution",
           "desc": "For large schools, colleges, and university networks.",
           "priceMonthly": 299,
-          "features": ["Unlimited students", "All modules", "Unlimited admins", "Dedicated support", "Custom branding", "Multi-campus"]
+          "features": [
+            "Unlimited students",
+            "All modules",
+            "Unlimited admins",
+            "Dedicated support",
+            "Custom branding",
+            "Multi-campus"
+          ]
         }
       },
       "cta": "Get Started",
@@ -251,17 +318,6 @@
         "themes": "Dark Mode"
       }
     }
-  },
-  "auth": {
-    "signIn": "Sign In",
-    "signUp": "Sign Up",
-    "signOut": "Sign Out",
-    "email": "Email",
-    "password": "Password",
-    "forgotPassword": "Forgot password?",
-    "rememberMe": "Remember me",
-    "createAccount": "Create an account",
-    "alreadyHaveAccount": "Already have an account?"
   },
   "dashboard": {
     "welcome": "Welcome back",
@@ -397,7 +453,7 @@
     "closeMenu": "Close menu"
   },
   "shell": {
-    "searchPlaceholder": "Search\u2026",
+    "searchPlaceholder": "Search…",
     "notifications": "Notifications",
     "noNotifications": "No notifications",
     "profile": "Profile",
@@ -430,7 +486,7 @@
       "showPassword": "Show password",
       "hidePassword": "Hide password",
       "submit": "Submit",
-      "loading": "Please wait\u2026",
+      "loading": "Please wait…",
       "or": "or",
       "demoMode": "Demo Mode",
       "terms": "I agree to the Terms of Service and Privacy Policy"
@@ -439,7 +495,7 @@
       "title": "Welcome back",
       "subtitle": "Sign in to your EduVanta workspace",
       "submit": "Sign In",
-      "noAccount": "Don\u2019t have an account?",
+      "noAccount": "Don’t have an account?",
       "createAccount": "Create free account",
       "success": "Signed in successfully!",
       "demoTitle": "Try a Demo Role",
@@ -448,16 +504,16 @@
     },
     "register": {
       "title": "Create your workspace",
-      "subtitle": "Start your free EduVanta trial \u2014 no credit card required",
+      "subtitle": "Start your free EduVanta trial — no credit card required",
       "submit": "Request Access",
       "haveAccount": "Already have an account?",
       "signIn": "Sign In",
       "successTitle": "Request Received!",
-      "successDescription": "Your EduVanta workspace request is ready for review. We\u2019ll be in touch shortly."
+      "successDescription": "Your EduVanta workspace request is ready for review. We’ll be in touch shortly."
     },
     "forgot": {
       "title": "Reset your password",
-      "subtitle": "Enter your email and we\u2019ll send reset instructions",
+      "subtitle": "Enter your email and we’ll send reset instructions",
       "submit": "Send Reset Link",
       "success": "If this email exists, reset instructions have been sent.",
       "backToLogin": "Back to login"
@@ -473,9 +529,9 @@
       "title": "Manage Education Effortlessly",
       "subtitle": "Trusted by schools and colleges across 30+ countries",
       "benefits": {
-        "0": "12+ modules \u2014 students, fees, exams, HR, library and more",
-        "1": "Multilingual & RTL-ready \u2014 English, Arabic, Urdu",
-        "2": "6 role dashboards \u2014 Admin, Teacher, Student, Parent and more"
+        "0": "12+ modules — students, fees, exams, HR, library and more",
+        "1": "Multilingual & RTL-ready — English, Arabic, Urdu",
+        "2": "6 role dashboards — Admin, Teacher, Student, Parent and more"
       }
     },
     "roles": {
@@ -669,12 +725,29 @@
   },
   "teachers": {
     "pages": {
-      "list": { "title": "Teachers", "description": "Manage teacher profiles, assignments, and records." },
-      "new": { "title": "Add New Teacher", "description": "Create a new teacher record with personal and professional information." },
-      "edit": { "title": "Edit Teacher", "description": "Update teacher information." },
-      "details": { "title": "Teacher Details" },
-      "attendance": { "title": "Teacher Attendance", "description": "View and manage daily teacher attendance records." },
-      "timetable": { "title": "Teacher Timetable", "description": "View the weekly class schedule for all teachers." }
+      "list": {
+        "title": "Teachers",
+        "description": "Manage teacher profiles, assignments, and records."
+      },
+      "new": {
+        "title": "Add New Teacher",
+        "description": "Create a new teacher record with personal and professional information."
+      },
+      "edit": {
+        "title": "Edit Teacher",
+        "description": "Update teacher information."
+      },
+      "details": {
+        "title": "Teacher Details"
+      },
+      "attendance": {
+        "title": "Teacher Attendance",
+        "description": "View and manage daily teacher attendance records."
+      },
+      "timetable": {
+        "title": "Teacher Timetable",
+        "description": "View the weekly class schedule for all teachers."
+      }
     },
     "actions": {
       "add": "Add Teacher",
@@ -774,10 +847,22 @@
   },
   "guardians": {
     "pages": {
-      "list": { "title": "Guardians", "description": "Manage parent and guardian profiles, contacts, and student links." },
-      "new": { "title": "Add New Guardian", "description": "Create a new guardian record with contact and student link information." },
-      "edit": { "title": "Edit Guardian", "description": "Update guardian information." },
-      "details": { "title": "Guardian Details", "description": "View guardian profile, contact details, and linked students." }
+      "list": {
+        "title": "Guardians",
+        "description": "Manage parent and guardian profiles, contacts, and student links."
+      },
+      "new": {
+        "title": "Add New Guardian",
+        "description": "Create a new guardian record with contact and student link information."
+      },
+      "edit": {
+        "title": "Edit Guardian",
+        "description": "Update guardian information."
+      },
+      "details": {
+        "title": "Guardian Details",
+        "description": "View guardian profile, contact details, and linked students."
+      }
     },
     "actions": {
       "add": "Add Guardian",
@@ -865,13 +950,34 @@
   },
   "employees": {
     "pages": {
-      "list": { "title": "Employees", "description": "Manage employee profiles, departments, and records." },
-      "new": { "title": "Add New Employee", "description": "Create a new employee record with personal and professional information." },
-      "edit": { "title": "Edit Employee", "description": "Update employee information." },
-      "details": { "title": "Employee Details", "description": "View employee profile, job details, and records." },
-      "attendance": { "title": "Employee Attendance", "description": "View and manage daily employee attendance records." },
-      "leaveRequests": { "title": "Leave Requests", "description": "View and manage employee leave requests." },
-      "leaveTypes": { "title": "Leave Types", "description": "Configure leave types and entitlements." }
+      "list": {
+        "title": "Employees",
+        "description": "Manage employee profiles, departments, and records."
+      },
+      "new": {
+        "title": "Add New Employee",
+        "description": "Create a new employee record with personal and professional information."
+      },
+      "edit": {
+        "title": "Edit Employee",
+        "description": "Update employee information."
+      },
+      "details": {
+        "title": "Employee Details",
+        "description": "View employee profile, job details, and records."
+      },
+      "attendance": {
+        "title": "Employee Attendance",
+        "description": "View and manage daily employee attendance records."
+      },
+      "leaveRequests": {
+        "title": "Leave Requests",
+        "description": "View and manage employee leave requests."
+      },
+      "leaveTypes": {
+        "title": "Leave Types",
+        "description": "Configure leave types and entitlements."
+      }
     },
     "actions": {
       "add": "Add Employee",
@@ -989,9 +1095,18 @@
   },
   "hrm": {
     "pages": {
-      "payroll": { "title": "Payroll", "description": "View and manage employee payroll records." },
-      "departments": { "title": "Departments", "description": "Manage school departments and their heads." },
-      "designations": { "title": "Designations", "description": "Manage job designations and roles." }
+      "payroll": {
+        "title": "Payroll",
+        "description": "View and manage employee payroll records."
+      },
+      "departments": {
+        "title": "Departments",
+        "description": "Manage school departments and their heads."
+      },
+      "designations": {
+        "title": "Designations",
+        "description": "Manage job designations and roles."
+      }
     },
     "actions": {
       "add": "Add",
@@ -1683,6 +1798,319 @@
       "deleted": "Certificate record deleted. (Mock)",
       "notFound": "Certificate not found.",
       "noRecords": "No certificate records found."
+    }
+  },
+  "landing": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "pricing": "Pricing",
+      "blog": "Blog",
+      "contact": "Contact",
+      "viewDemo": "View Demo",
+      "liveDemo": "Live Demo",
+      "login": "Log In"
+    },
+    "hero": {
+      "eyebrow": "School · College · Academy · LMS",
+      "title": "Run Your School From One Connected Platform",
+      "subtitle": "EduVanta unifies students, teachers, finance, HRM, communication, and library management in a single multilingual platform.",
+      "trustBadge": "Trusted by 500+ schools worldwide"
+    },
+    "cta": {
+      "exploreDashboard": "Explore the Dashboard",
+      "viewPricing": "View Pricing",
+      "getStarted": "Get Started",
+      "learnMore": "Learn More",
+      "tryDemo": "Try the Demo"
+    },
+    "footer": {
+      "description": "Smart school management for administrators, teachers, finance teams, students, and parents.",
+      "platform": "Platform",
+      "company": "Company",
+      "support": "Support",
+      "allModules": "All Modules",
+      "liveDemo": "Live Demo",
+      "aboutUs": "About EduVanta",
+      "contactUs": "Contact Us",
+      "privacyPolicy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "faq": "FAQ",
+      "getHelp": "Get Help",
+      "systemStatus": "System Status",
+      "copyright": "All rights reserved. Built with love for schools worldwide."
+    },
+    "about": {
+      "subtitle": "About EduVanta",
+      "title": "Built for Schools That Operate at Scale",
+      "desc": "EduVanta is a complete school ERP — from student admissions and grades to payroll, library, attendance, and parent communication. Designed for multilingual schools with Arabic, Urdu, and English support built in from day one.",
+      "check1": "Full RTL support for Arabic & Urdu",
+      "check2": "Multi-currency finance & fee management",
+      "check3": "Role-based access for all school stakeholders",
+      "cta": "Learn More"
+    },
+    "features": {
+      "subtitle": "Platform Modules",
+      "title": "Everything Your School Needs, Connected",
+      "block1Title": "Students & Academic",
+      "block1Desc": "Manage student admissions, grades, attendance, timetables, and exam results in one connected workflow. Teachers and administrators work from a shared real-time view.",
+      "block1F1": "Student admissions & profiles",
+      "block1F2": "Academic grades & report cards",
+      "block1F3": "Timetable & class scheduling",
+      "block1F4": "Exam & assessment management",
+      "block2Title": "Finance & HRM",
+      "block2Desc": "Handle fee collection, expense tracking, payroll, and employee records across multiple currencies — with full audit trails and real-time financial reports.",
+      "block2F1": "Multi-currency fee collection",
+      "block2F2": "Payroll & employee management",
+      "block2F3": "Expense tracking & budgets",
+      "block2F4": "Financial reports & export",
+      "block3Title": "Communication & Library",
+      "block3Desc": "Send announcements, notifications, and direct messages to parents, students, and staff. The integrated library module tracks books, borrowing, and fines automatically.",
+      "block3F1": "Parent & guardian messaging",
+      "block3F2": "Push & email notifications",
+      "block3F3": "Library catalog & borrowing",
+      "block3F4": "Certificate & document generation",
+      "exploreModule": "Explore Module"
+    },
+    "howItWorks": {
+      "subtitle": "How It Works",
+      "title": "Up and Running in Three Simple Steps",
+      "desc": "EduVanta is designed to be adopted school-wide quickly. Most schools complete setup, training, and go-live within a single week.",
+      "cta": "Get Started",
+      "step1Title": "Set Up Your School",
+      "step1Desc": "Create your school profile in minutes. Configure academic years, departments, roles, and branding — no technical expertise required.",
+      "step2Title": "Configure Modules",
+      "step2Desc": "Enable the modules you need: students, teachers, finance, HRM, library, communication. Each module is independent and instantly connected.",
+      "step3Title": "Go Live & Grow",
+      "step3Desc": "Invite your team, import your data, and start running your school smarter. Multilingual, RTL-ready, and mobile-responsive from day one."
+    },
+    "integrations": {
+      "subtitle": "Platform Modules",
+      "title": "12 Integrated Modules, One Unified Platform",
+      "m1Title": "Students",
+      "m1Desc": "Admissions, profiles, and parent links",
+      "m2Title": "Teachers",
+      "m2Desc": "Staff records, timetables, attendance",
+      "m3Title": "Academic",
+      "m3Desc": "Grades, exams, report cards",
+      "m4Title": "Attendance",
+      "m4Desc": "Daily, class-level, automated alerts",
+      "m5Title": "Fees",
+      "m5Desc": "Invoicing, payment tracking, receipts",
+      "m6Title": "Finance",
+      "m6Desc": "Budget, expenses, and financial reports",
+      "m7Title": "HRM",
+      "m7Desc": "Employee records, payroll, leave",
+      "m8Title": "Library",
+      "m8Desc": "Catalog, borrowing, fines management",
+      "m9Title": "Communication",
+      "m9Desc": "Messages, notifications, announcements",
+      "m10Title": "Certificates",
+      "m10Desc": "Generate and export school documents",
+      "m11Title": "Guardians",
+      "m11Desc": "Parent portal and guardian links",
+      "m12Title": "Settings",
+      "m12Desc": "Roles, permissions, and school config"
+    },
+    "pricing": {
+      "subtitle": "Pricing Plans",
+      "title": "Transparent Pricing for Every School Size",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save": "Save 15%",
+      "perMonth": "/month",
+      "perYear": "/year",
+      "cta": "Get Started",
+      "s1Title": "Starter",
+      "s1Subtitle": "Perfect for small schools",
+      "s1F1": "Up to 200 students",
+      "s1F2": "Students & Academic module",
+      "s1F3": "Basic attendance tracking",
+      "s1F4": "Finance & HRM",
+      "s1F5": "Communication module",
+      "s1F6": "Library module",
+      "s2Title": "Professional",
+      "s2Subtitle": "For growing institutions",
+      "s2F1": "Up to 2,000 students",
+      "s2F2": "Students & Academic module",
+      "s2F3": "Full attendance & exams",
+      "s2F4": "Finance & HRM",
+      "s2F5": "Communication module",
+      "s2F6": "Library module",
+      "s3Title": "Enterprise",
+      "s3Subtitle": "For large school networks",
+      "s3F1": "Unlimited students",
+      "s3F2": "All academic modules",
+      "s3F3": "Full attendance & exams",
+      "s3F4": "Finance & HRM",
+      "s3F5": "Communication module",
+      "s3F6": "Library module"
+    },
+    "testimonials": {
+      "subtitle": "Client Reviews",
+      "title": "See What School Leaders Say About EduVanta",
+      "t1Text": "EduVanta transformed how we manage 1,200 students across three campuses. The Arabic RTL support is flawless, and our finance team saved 15+ hours per week on fee collection alone.",
+      "t1Name": "Dr. Fatima Al-Rashidi",
+      "t1Role": "Principal, Al-Noor International School",
+      "t2Text": "We evaluated five school ERPs and chose EduVanta because it's the only one with genuine multilingual support. The Urdu interface is perfect for our teaching staff.",
+      "t2Name": "Muhammad Imran",
+      "t2Role": "IT Director, Beacon Schools Network",
+      "t3Text": "The library module alone is worth the subscription. Borrowing tracking, late fee automation, and catalog search — all in one screen. Our librarian was set up in an hour.",
+      "t3Name": "Sarah Thompson",
+      "t3Role": "Head Librarian, Greenfield Academy",
+      "t4Text": "Parent communication used to take our admin team an entire morning. Now automated notifications go out in seconds. Attendance reports, fee reminders, grades — all instant.",
+      "t4Name": "Ahmed Hassan",
+      "t4Role": "School Administrator, Future Minds School"
+    },
+    "faq": {
+      "subtitle": "FAQ",
+      "title": "Common Questions About EduVanta",
+      "desc": "Have a question not listed here? Reach our support team at any time — we typically respond within 2 hours.",
+      "askCta": "Ask a Question",
+      "q1": "Does EduVanta support Arabic and Urdu interfaces?",
+      "a1": "Yes — EduVanta is built with full RTL support for Arabic and Urdu. The entire dashboard, forms, and reports flip direction automatically based on the selected language. All three languages (English, Arabic, Urdu) are supported out of the box.",
+      "q2": "Can we run multiple school campuses from one account?",
+      "a2": "Absolutely. The Enterprise plan supports multi-campus school networks with shared configuration, separate student/staff registries, and consolidated financial reporting across all campuses.",
+      "q3": "How secure is our school data?",
+      "a3": "EduVanta uses role-based access control, encrypted data storage, and audit trails for all sensitive operations. Student data is never shared across schools, and all communications are encrypted in transit.",
+      "q4": "What currencies does the Finance module support?",
+      "a4": "The Finance and Fees modules support multi-currency fee collection and reporting. You can configure your base currency (USD, AED, PKR, SAR, and more) per school. Conversion rates can be set manually or fetched automatically.",
+      "q5": "How quickly can we get started?",
+      "a5": "Most schools go live within one week. Our onboarding guide walks you through school setup, staff invitations, student import, and first-day operations. We also offer optional hands-on onboarding support."
+    },
+    "ctaSection": {
+      "title": "Start Your Free Demo — No Credit Card Required",
+      "desc": "Join hundreds of schools worldwide using EduVanta to manage students, staff, fees, communication, and more — all from one connected platform.",
+      "primary": "Explore the Dashboard",
+      "secondary": "View Pricing"
+    },
+    "aboutPage": {
+      "heroSubtitle": "About EduVanta",
+      "heroTitle": "Built by Educators, for Educators",
+      "heroDesc": "EduVanta is a complete school management platform built to unify every part of school operations — academic, financial, human resources, and communication — in a single multilingual system.",
+      "stat1Label": "Schools Worldwide",
+      "stat2Label": "Students Managed",
+      "stat3Label": "Platform Modules",
+      "stat4Label": "Languages Supported",
+      "missionSubtitle": "Our Mission",
+      "missionTitle": "Making School Management Accessible to All Schools",
+      "missionP1": "Too many schools — especially in the Middle East, South Asia, and beyond — are still running on spreadsheets, paper registers, and disconnected software. EduVanta changes that.",
+      "missionP2": "Our platform is affordable, fast to deploy, and designed for real-world school workflows in Arabic, Urdu, and English.",
+      "missionCta": "Try the Demo",
+      "valuesSubtitle": "Our Values",
+      "valuesTitle": "What We Stand For",
+      "v1Title": "Multilingual First",
+      "v1Desc": "EduVanta was designed from the ground up for multilingual schools. Arabic RTL and Urdu support are core features, not afterthoughts.",
+      "v2Title": "Security & Privacy",
+      "v2Desc": "Student data is protected with role-based access, encrypted storage, and audit trails. GDPR-conscious design across all modules.",
+      "v3Title": "Modular by Design",
+      "v3Desc": "Use only the modules you need. Every feature integrates seamlessly, but you control which are active for your school."
+    },
+    "servicesPage": {
+      "heroSubtitle": "Platform Modules",
+      "heroTitle": "Every Tool Your School Needs — In One Platform",
+      "heroDesc": "EduVanta provides 12 fully integrated modules covering the complete lifecycle of school management, from student admissions to financial reporting and parent communication.",
+      "m1Title": "Students",
+      "m1Desc": "Admissions, profiles, guardians, categories, and suspension management.",
+      "m2Title": "Teachers",
+      "m2Desc": "Staff profiles, timetable assignment, attendance, and subject allocation.",
+      "m3Title": "Academic",
+      "m3Desc": "Classes, subjects, sections, classrooms, and curriculum management.",
+      "m4Title": "Attendance",
+      "m4Desc": "Daily and session-level attendance with automated notifications.",
+      "m5Title": "Library",
+      "m5Desc": "Book catalog, borrowing records, returns, and fine tracking.",
+      "m6Title": "Certificates",
+      "m6Desc": "Generate, customize, and export student and staff certificates.",
+      "m7Title": "Fees",
+      "m7Desc": "Fee structures, payment tracking, invoicing, and receipts.",
+      "m8Title": "Finance",
+      "m8Desc": "Budget management, expense tracking, and financial reporting.",
+      "m9Title": "HRM",
+      "m9Desc": "Employee records, payroll processing, and leave management.",
+      "m10Title": "Communication",
+      "m10Desc": "Messages, announcements, events, and notices for all stakeholders.",
+      "m11Title": "Exams",
+      "m11Desc": "Exam schedules, marks entry, grading, and result publishing.",
+      "m12Title": "Settings",
+      "m12Desc": "Roles, permissions, school configuration, and system preferences.",
+      "explore": "Explore"
+    },
+    "pricingPage": {
+      "heroSubtitle": "Pricing",
+      "heroTitle": "Transparent Pricing for Every School",
+      "heroDesc": "No hidden fees. No per-seat surprises. Choose the plan that fits your school size and unlock a free trial today.",
+      "faqTitle": "Have Questions About Pricing?",
+      "faqDesc": "Check our FAQ or contact our team directly — we respond within 2 hours.",
+      "viewFaq": "View FAQ",
+      "contactSales": "Contact Sales"
+    },
+    "faqPage": {
+      "heroSubtitle": "FAQ",
+      "heroTitle": "Frequently Asked Questions",
+      "heroDesc": "Everything you need to know about EduVanta — from multilingual support to data security, pricing, and getting started."
+    },
+    "contactPage": {
+      "heroSubtitle": "Contact",
+      "heroTitle": "Get in Touch With Our Team",
+      "heroDesc": "Have a question about EduVanta? We'll respond within 2 business hours.",
+      "infoSubtitle": "Contact Info",
+      "infoTitle": "Let's Talk About Your School",
+      "infoDesc": "Whether you're evaluating EduVanta, need help with an existing account, or want to discuss enterprise pricing — our team is here to help.",
+      "emailLabel": "Email",
+      "emailValue": "support@eduvanta.com",
+      "responseLabel": "Response Time",
+      "responseValue": "Within 2 business hours",
+      "languagesLabel": "Languages",
+      "languagesValue": "English, Arabic, Urdu",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Your name",
+      "emailFieldLabel": "Work Email",
+      "emailFieldPlaceholder": "you@school.edu",
+      "schoolLabel": "School / Institution Name",
+      "schoolPlaceholder": "Your school name",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your school...",
+      "submitBtn": "Send Message",
+      "successTitle": "Message Sent!",
+      "successDesc": "Thank you for reaching out. We'll get back to you within 2 hours."
+    },
+    "blogPage": {
+      "heroSubtitle": "Blog",
+      "heroTitle": "Insights for Modern School Leaders",
+      "heroDesc": "Practical guides, feature deep-dives, and school management best practices — written for administrators, finance teams, and IT staff.",
+      "readBtn": "Read",
+      "post1Category": "School Management",
+      "post1Title": "How RTL Support Transforms School Management in Arabic-Speaking Schools",
+      "post1Excerpt": "Many school ERP systems add RTL support as a late-stage patch. EduVanta built it from the ground up — here's why that matters for day-to-day school operations.",
+      "post1Date": "January 2026",
+      "post1ReadTime": "5 min read",
+      "post2Category": "Finance",
+      "post2Title": "5 Ways Automated Fee Collection Saves School Finance Teams 10+ Hours a Week",
+      "post2Excerpt": "From automated invoice generation to payment reminders and receipt export — EduVanta's fees module was designed for the entire financial workflow.",
+      "post2Date": "December 2025",
+      "post2ReadTime": "4 min read",
+      "post3Category": "HRM",
+      "post3Title": "Payroll for Schools: Why Generic Payroll Software Falls Short",
+      "post3Excerpt": "School payroll has unique needs — term-based contracts, substitute tracking, leave management by academic calendar. EduVanta HRM handles it all.",
+      "post3Date": "November 2025",
+      "post3ReadTime": "6 min read",
+      "post4Category": "Communication",
+      "post4Title": "Parent Communication: From Morning Bulletins to Emergency Alerts",
+      "post4Excerpt": "How EduVanta's communication module helps schools stay connected with parents across email, SMS, and in-app push notifications — in three languages.",
+      "post4Date": "October 2025",
+      "post4ReadTime": "3 min read",
+      "post5Category": "Library",
+      "post5Title": "Digital Library Management for Schools: A Complete Guide",
+      "post5Excerpt": "Barcode scanning, digital catalog search, overdue tracking, and automated fine calculation — a school library module that actually works.",
+      "post5Date": "September 2025",
+      "post5ReadTime": "7 min read",
+      "post6Category": "Academic",
+      "post6Title": "Exam Management Best Practices: From Scheduling to Result Publishing",
+      "post6Excerpt": "EduVanta's exam module streamlines timetable creation, marks entry, automatic grading, and parent-facing result notifications in one workflow.",
+      "post6Date": "August 2025",
+      "post6ReadTime": "5 min read"
     }
   }
 }

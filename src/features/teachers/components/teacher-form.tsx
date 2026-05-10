@@ -82,13 +82,13 @@ export function TeacherForm({
     await new Promise((r) => setTimeout(r, 400));
     if (mode === "create") {
       toast.success("Teacher created successfully.");
-      router.push(`/${locale}/teachers`);
+      router.push("/teachers");
     } else {
       toast.success("Teacher updated successfully.");
     }
   };
 
-  const onCancel = () => router.push(`/${locale}/teachers`);
+  const onCancel = () => router.push("/teachers");
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-6">

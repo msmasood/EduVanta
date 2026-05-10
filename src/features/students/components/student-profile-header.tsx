@@ -71,7 +71,7 @@ export function StudentProfileHeader({
         variant="outline"
         size="sm"
         onClick={() =>
-          router.push(`/${locale}/students/${student.id}/edit`)
+          router.push(`/students/${student.id}/edit`)
         }
       >
         <Pencil className="me-1.5 size-4" aria-hidden />

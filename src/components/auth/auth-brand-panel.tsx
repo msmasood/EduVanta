@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { CheckCircle } from "lucide-react";
 import { useTranslations } from "next-intl";
 
@@ -21,10 +22,13 @@ export function AuthBrandPanel() {
       {/* Logo + brand name */}
       <div className="relative z-10">
         <div className="flex items-center gap-3">
-          <div className="flex size-10 items-center justify-center rounded-xl bg-white/20 text-xl font-bold">
-            E
-          </div>
-          <span className="text-xl font-bold tracking-tight">{APP_NAME}</span>
+          <Image
+            src="/brand/eduvanta-logo-square.svg"
+            alt={APP_NAME}
+            width={44}
+            height={44}
+            className="size-11 object-contain"
+          />
         </div>
       </div>
 
